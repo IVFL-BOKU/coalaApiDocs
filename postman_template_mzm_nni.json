@@ -1,0 +1,306 @@
+{
+	"info": {
+		"_postman_id": "7f9b67fe-4ba6-4b9e-b20c-e06ec8bdf8dc",
+		"name": "COALA API calls",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "NNI",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.coalaproject.eu/api/indicator/nni/rasterData?geometry={\"type\":\"Polygon\",\"coordinates\":[[[142.9669,-35.8281],[142.969,-35.8166],[142.956,-35.8159],[142.9544,-35.8266],[142.9669,-35.8281]]]}&srcSrid=4326&dateFrom=2021-11-01&dateTo=2021-12-31&daily=0&minCover=1&scale=raw&format=image/png&colorMap=0&debug=&step=7&m1=38.56&b1=56.707&a2=5.35&m2=0.443&a3=40&b3=-39&andvi=1.5&bndvi=0.2&token={{coalaToken}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"coalaproject",
+						"eu"
+					],
+					"path": [
+						"api",
+						"indicator",
+						"nni",
+						"rasterData"
+					],
+					"query": [
+						{
+							"key": "geometry",
+							"value": "{\"type\":\"Polygon\",\"coordinates\":[[[142.9669,-35.8281],[142.969,-35.8166],[142.956,-35.8159],[142.9544,-35.8266],[142.9669,-35.8281]]]}",
+							"description": "GeoJSON geometry as in example"
+						},
+						{
+							"key": "srcSrid",
+							"value": "4326",
+							"description": "An EPSG code of request's spatial parameters (like geometry), e.g. 4326 (WGS-84) or 3857 (Web Mercator)."
+						},
+						{
+							"key": "dateFrom",
+							"value": "2021-11-01"
+						},
+						{
+							"key": "dateTo",
+							"value": "2021-12-31"
+						},
+						{
+							"key": "daily",
+							"value": "0",
+							"description": "-If not present or with the 0 value, data is gathered from actual acquistions.\n-If daily=1, interpolated daily data is used instead. This assures data exists for each day in the requested time period. Daily data are generated on the fly and cached. It means if you request data outside of cache, generating them will take (a lot of) time."
+						},
+						{
+							"key": "minCover",
+							"value": "1",
+							"description": "-Minimum coverage provided by an acquisition to be included in the response.\n-0 means no coverage and 1 means full coverage only.\n-Providing a value will cause coverage statistics to be included in the response.\n-Default value varies between indicators. You can check it using the /indciator endpoint."
+						},
+						{
+							"key": "scale",
+							"value": "raw",
+							"description": "- raw - use values as they are stored in the database (e.g. 0-80 for LAI)\n- real - rescale values to indicator's phisical values range (e.g. 0-8 fro LAI)\n- stdfloat - standardize to mean 0 and standard deviation 1 within the scene\n- stdbyte - standardize to mean 127 and standard deviation 25 within the scene\n- stretch - transform in a way the minimum value within the scene equals 0 and maximum equals 254\n- grayscale - transform in a way minimum phisical value of the indicator corresponds to 0 and maximum to 254"
+						},
+						{
+							"key": "format",
+							"value": "image/png",
+							"description": "Available values : image/png, image/jpeg, image/tiff, application/json, application/geo+json, application/vnd.geo+json"
+						},
+						{
+							"key": "colorMap",
+							"value": "0",
+							"description": "0 - no color map\n1 - indicates a default color map for a given indicatorId should be used. Takes effect only when scale equals to raw."
+						},
+						{
+							"key": "encode",
+							"value": null,
+							"description": "- raw - means raster data will be provided as they are. This value is set automatically for image/* reponse formats (when format equals to image/png, image/jpeg or image/tiff) and is invalid for other response formats.\n- base64 and hex - means raster data will be base64 or hex encoded. This settings are valid only when format equals to application/json and rasterFormat is one of image/png, image/jpeg or image/tiff.\n- values - causes pixes values to be converted into a vector representation. If the format indicates geoJSON response, every pixel will be turned into a geoJSON feature and for application/json response format pixels will be represented by a collection of objects providing pixel position and value. The way pixel position is represented is determined by the position parameter.\n- stats - causes raster data to be skipped and only summary statistics (valid pixel count, requested area coverage, min, max, mean value, standard deviation) to be returned.",
+							"disabled": true
+						},
+						{
+							"key": "debug",
+							"value": "",
+							"description": "- mtci/ndvi/et - ET0 and interpolated MTCI/NDVI; \n- mtci2 - nominator of the NNI formula; \n- biomass - cumulative biomass (B from the NNI formula); \n- biomass2 - denominator of the NNI formula."
+						},
+						{
+							"key": "step",
+							"value": "7",
+							"description": "interval of the output data; e.g. \n- 1 means provide daily data series and 7 a weekly data series (dates are computed from the DATE_TO; default is 7) "
+						},
+						{
+							"key": "m1",
+							"value": "38.56"
+						},
+						{
+							"key": "b1",
+							"value": "56.707"
+						},
+						{
+							"key": "a2",
+							"value": "5.35"
+						},
+						{
+							"key": "m2",
+							"value": "0.443"
+						},
+						{
+							"key": "a3",
+							"value": "40"
+						},
+						{
+							"key": "b3",
+							"value": "-39"
+						},
+						{
+							"key": "andvi",
+							"value": "1.5"
+						},
+						{
+							"key": "bndvi",
+							"value": "0.2"
+						},
+						{
+							"key": "token",
+							"value": "{{coalaToken}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MZM",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.coalaproject.eu/api/indicator/mzm/rasterData?geometry={\"type\":\"Polygon\",\"coordinates\":[[[142.9669,-35.8281],[142.969,-35.8166],[142.956,-35.8159],[142.9544,-35.8266],[142.9669,-35.8281]]]}&srcSrid=4326&dateFrom=2021-06-13&dateTo=2021-07-13&daily&minCover=0.8&scale=&format=image/tiff&srid=4326&debug=raw",
+					"protocol": "https",
+					"host": [
+						"api",
+						"coalaproject",
+						"eu"
+					],
+					"path": [
+						"api",
+						"indicator",
+						"mzm",
+						"rasterData"
+					],
+					"query": [
+						{
+							"key": "geometry",
+							"value": "{\"type\":\"Polygon\",\"coordinates\":[[[142.9669,-35.8281],[142.969,-35.8166],[142.956,-35.8159],[142.9544,-35.8266],[142.9669,-35.8281]]]}",
+							"description": "GeoJSON"
+						},
+						{
+							"key": "srcSrid",
+							"value": "4326",
+							"description": "An EPSG code of request's spatial parameters (like geometry), e.g. 4326 (WGS-84) or 3857 (Web Mercator).\n- applied on the geometry"
+						},
+						{
+							"key": "dateFrom",
+							"value": "2021-06-13"
+						},
+						{
+							"key": "dateTo",
+							"value": "2021-07-13"
+						},
+						{
+							"key": "daily",
+							"value": null,
+							"description": "-If not present or with the 0 value, data is gathered from actual acquistions.\n-If daily=1, interpolated daily data is used instead. This assures data exists for each day in the requested time period. Daily data are generated on the fly and cached. It means if you request data outside of cache, generating them will take (a lot of) time."
+						},
+						{
+							"key": "minCover",
+							"value": "0.8",
+							"description": "-Minimum coverage provided by an acquisition to be included in the response.\n-0 means no coverage and 1 means full coverage only.\n-Providing a value will cause coverage statistics to be included in the response.\n-Default value varies between indicators. You can check it using the /indciator endpoint."
+						},
+						{
+							"key": "scale",
+							"value": "",
+							"description": "- raw - use values as they are stored in the database (e.g. 0-80 for LAI)\n- real - rescale values to indicator's phisical values range (e.g. 0-8 fro LAI)\n- stdfloat - standardize to mean 0 and standard deviation 1 within the scene\n- stdbyte - standardize to mean 127 and standard deviation 25 within the scene\n- stretch - transform in a way the minimum value within the scene equals 0 and maximum equals 254\n- grayscale - transform in a way minimum phisical value of the indicator corresponds to 0 and maximum to 254"
+						},
+						{
+							"key": "format",
+							"value": "image/tiff",
+							"description": "Available values : image/png, image/jpeg, image/tiff, application/json, application/geo+json, application/vnd.geo+json"
+						},
+						{
+							"key": "colorMap",
+							"value": null,
+							"description": "0 - no color map\n1 - indicates a default color map for a given indicatorId should be used. Takes effect only when scale equals to raw.",
+							"disabled": true
+						},
+						{
+							"key": "encode",
+							"value": null,
+							"description": "- raw - means raster data will be provided as they are. This value is set automatically for image/* reponse formats (when format equals to image/png, image/jpeg or image/tiff) and is invalid for other response formats.\n- base64 and hex - means raster data will be base64 or hex encoded. This settings are valid only when format equals to application/json and rasterFormat is one of image/png, image/jpeg or image/tiff.\n- values - causes pixes values to be converted into a vector representation. If the format indicates geoJSON response, every pixel will be turned into a geoJSON feature and for application/json response format pixels will be represented by a collection of objects providing pixel position and value. The way pixel position is represented is determined by the position parameter.\n- stats - causes raster data to be skipped and only summary statistics (valid pixel count, requested area coverage, min, max, mean value, standard deviation) to be returned.",
+							"disabled": true
+						},
+						{
+							"key": "srid",
+							"value": "4326",
+							"description": "- An EPSG code of returned spatial objects projection, e.g. 4326 (WGS-84) or 3857 (Web Mercator)\n- If not provided srcSrid parameter value is used and if srcSrid parameter isn't provided as well, a default value of 4326 is assumed.\n- applied to the output"
+						},
+						{
+							"key": "interpolation",
+							"value": "l",
+							"description": "Daily data interpolation method (l - linear, w - whitakker smoother)\nDefault l",
+							"disabled": true
+						},
+						{
+							"key": "lambda",
+							"value": "1",
+							"description": "Whittaker smoother lambda parameter (the bigger the value, the more smoothed output)\nDefault 10",
+							"disabled": true
+						},
+						{
+							"key": "minValid",
+							"value": "4",
+							"description": "Minimum number of valid acquisitions to provide a smoothed data series for a pixel when the whittaker smoother is used.\nDefault 4",
+							"disabled": true
+						},
+						{
+							"key": "nLoops",
+							"value": "3",
+							"description": "Number of whittaker smoother loops.\nDefault 3",
+							"disabled": true
+						},
+						{
+							"key": "startValue",
+							"value": "0.3",
+							"description": "Minimal NDVI value to start the mzm indicator computation (evalutated on a pixel level)\nDefault 0.3",
+							"disabled": true
+						},
+						{
+							"key": "endValue",
+							"value": "0.35",
+							"description": "Minimal NDVI value ending the mzm indicator computation (evalutated on a pixel level).\nDefault 0.35",
+							"disabled": true
+						},
+						{
+							"key": "minPeriodLength",
+							"value": "60",
+							"description": "Minimum length (in days) of a period for which the mzm indicator is computed (evalutated on a pixel level).\nDefault 60",
+							"disabled": true
+						},
+						{
+							"key": "slope",
+							"value": "1.64",
+							"description": "Slope coefficient used in the indicator formula",
+							"disabled": true
+						},
+						{
+							"key": "const",
+							"value": "-0.14",
+							"description": "Constant coefficient used in the indicator formula.",
+							"disabled": true
+						},
+						{
+							"key": "k",
+							"value": "2",
+							"description": "Coefficient used in the mzm indicator standarization formula.\nDefault 2",
+							"disabled": true
+						},
+						{
+							"key": "statsBuf",
+							"value": "10",
+							"description": "Buffer (in meters) used to compute resulting raster statistics. It's used to avoid noise which can be introduced by the pixels on the border of the processed geometry.\nDefault 10",
+							"disabled": true
+						},
+						{
+							"key": "dates",
+							"value": null,
+							"description": "Coma separated list of data acquisition dates (in YYYY-MM-DD format) to be used for the indicator computation",
+							"disabled": true
+						},
+						{
+							"key": "debug",
+							"value": "raw",
+							"description": "Possible values: ndvi, et, raw"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
