@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "0e54c4ea-2302-428e-a442-62a8b1b15c47",
+		"_postman_id": "9d2df25e-0709-45b3-90b3-bbf602c2c5fe",
 		"name": "COALA APIs",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -41,48 +41,6 @@
 									},
 									"response": [
 										{
-											"name": "No such feature",
-											"originalRequest": {
-												"method": "GET",
-												"header": [
-													{
-														"description": "Added as a part of security scheme: basic",
-														"key": "Authorization",
-														"value": "Basic <credentials>"
-													}
-												],
-												"url": {
-													"raw": "{{baseUrl}}/armeo/area/:featureId",
-													"host": [
-														"{{baseUrl}}"
-													],
-													"path": [
-														"armeo",
-														"area",
-														":featureId"
-													],
-													"variable": [
-														{
-															"key": "featureId",
-															"value": "<int>",
-															"description": "(Required) Feature id"
-														}
-													]
-												}
-											},
-											"status": "Not Found",
-											"code": 404,
-											"_postman_previewlanguage": "text",
-											"header": [
-												{
-													"key": "Content-Type",
-													"value": "text/plain"
-												}
-											],
-											"cookie": [],
-											"body": ""
-										},
-										{
 											"name": "Feature data",
 											"originalRequest": {
 												"method": "GET",
@@ -114,6 +72,48 @@
 											},
 											"status": "OK",
 											"code": 200,
+											"_postman_previewlanguage": "text",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "text/plain"
+												}
+											],
+											"cookie": [],
+											"body": ""
+										},
+										{
+											"name": "No such feature",
+											"originalRequest": {
+												"method": "GET",
+												"header": [
+													{
+														"description": "Added as a part of security scheme: basic",
+														"key": "Authorization",
+														"value": "Basic <credentials>"
+													}
+												],
+												"url": {
+													"raw": "{{baseUrl}}/armeo/area/:featureId",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"armeo",
+														"area",
+														":featureId"
+													],
+													"variable": [
+														{
+															"key": "featureId",
+															"value": "<int>",
+															"description": "(Required) Feature id"
+														}
+													]
+												}
+											},
+											"status": "Not Found",
+											"code": 404,
 											"_postman_previewlanguage": "text",
 											"header": [
 												{
@@ -320,52 +320,6 @@
 											"body": ""
 										},
 										{
-											"name": "Feature updated",
-											"originalRequest": {
-												"method": "PUT",
-												"header": [
-													{
-														"description": "Added as a part of security scheme: basic",
-														"key": "Authorization",
-														"value": "Basic <credentials>"
-													}
-												],
-												"body": {
-													"mode": "urlencoded",
-													"urlencoded": []
-												},
-												"url": {
-													"raw": "{{baseUrl}}/armeo/area/:featureId",
-													"host": [
-														"{{baseUrl}}"
-													],
-													"path": [
-														"armeo",
-														"area",
-														":featureId"
-													],
-													"variable": [
-														{
-															"key": "featureId",
-															"value": "<int>",
-															"description": "(Required) Feature id"
-														}
-													]
-												}
-											},
-											"status": "OK",
-											"code": 200,
-											"_postman_previewlanguage": "text",
-											"header": [
-												{
-													"key": "Content-Type",
-													"value": "text/plain"
-												}
-											],
-											"cookie": [],
-											"body": ""
-										},
-										{
 											"name": "No such feature",
 											"originalRequest": {
 												"method": "PUT",
@@ -401,6 +355,52 @@
 											},
 											"status": "Not Found",
 											"code": 404,
+											"_postman_previewlanguage": "text",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "text/plain"
+												}
+											],
+											"cookie": [],
+											"body": ""
+										},
+										{
+											"name": "Feature updated",
+											"originalRequest": {
+												"method": "PUT",
+												"header": [
+													{
+														"description": "Added as a part of security scheme: basic",
+														"key": "Authorization",
+														"value": "Basic <credentials>"
+													}
+												],
+												"body": {
+													"mode": "urlencoded",
+													"urlencoded": []
+												},
+												"url": {
+													"raw": "{{baseUrl}}/armeo/area/:featureId",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"armeo",
+														"area",
+														":featureId"
+													],
+													"variable": [
+														{
+															"key": "featureId",
+															"value": "<int>",
+															"description": "(Required) Feature id"
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
 											"_postman_previewlanguage": "text",
 											"header": [
 												{
@@ -452,49 +452,6 @@
 							},
 							"response": [
 								{
-									"name": "Bad request",
-									"originalRequest": {
-										"method": "POST",
-										"header": [
-											{
-												"description": "Added as a part of security scheme: basic",
-												"key": "Authorization",
-												"value": "Basic <credentials>"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "\"\"",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": {
-											"raw": "{{baseUrl}}/armeo/area",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"armeo",
-												"area"
-											]
-										}
-									},
-									"status": "Bad Request",
-									"code": 400,
-									"_postman_previewlanguage": "text",
-									"header": [
-										{
-											"key": "Content-Type",
-											"value": "text/plain"
-										}
-									],
-									"cookie": [],
-									"body": ""
-								},
-								{
 									"name": "Areas uploaded successfully",
 									"originalRequest": {
 										"method": "POST",
@@ -536,6 +493,49 @@
 									],
 									"cookie": [],
 									"body": "{\n  \"status\": \"OK\",\n  \"count\": 398\n}"
+								},
+								{
+									"name": "Bad request",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"description": "Added as a part of security scheme: basic",
+												"key": "Authorization",
+												"value": "Basic <credentials>"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "\"\"",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/armeo/area",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"armeo",
+												"area"
+											]
+										}
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
 								}
 							]
 						},
@@ -773,6 +773,48 @@
 									},
 									"response": [
 										{
+											"name": "No such feature",
+											"originalRequest": {
+												"method": "GET",
+												"header": [
+													{
+														"description": "Added as a part of security scheme: basic",
+														"key": "Authorization",
+														"value": "Basic <credentials>"
+													}
+												],
+												"url": {
+													"raw": "{{baseUrl}}/armeo/point/:featureId",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"armeo",
+														"point",
+														":featureId"
+													],
+													"variable": [
+														{
+															"key": "featureId",
+															"value": "<int>",
+															"description": "(Required) Feature id"
+														}
+													]
+												}
+											},
+											"status": "Not Found",
+											"code": 404,
+											"_postman_previewlanguage": "text",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "text/plain"
+												}
+											],
+											"cookie": [],
+											"body": ""
+										},
+										{
 											"name": "Feature data",
 											"originalRequest": {
 												"method": "GET",
@@ -813,11 +855,39 @@
 											],
 											"cookie": [],
 											"body": ""
+										}
+									]
+								},
+								{
+									"name": "/armeo/point/:featureId",
+									"request": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/armeo/point/:featureId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"armeo",
+												"point",
+												":featureId"
+											],
+											"variable": [
+												{
+													"key": "featureId",
+													"value": "<int>",
+													"description": "(Required) Feature id"
+												}
+											]
 										},
+										"description": "Removes a given feature."
+									},
+									"response": [
 										{
 											"name": "No such feature",
 											"originalRequest": {
-												"method": "GET",
+												"method": "DELETE",
 												"header": [
 													{
 														"description": "Added as a part of security scheme: basic",
@@ -855,35 +925,7 @@
 											],
 											"cookie": [],
 											"body": ""
-										}
-									]
-								},
-								{
-									"name": "/armeo/point/:featureId",
-									"request": {
-										"method": "DELETE",
-										"header": [],
-										"url": {
-											"raw": "{{baseUrl}}/armeo/point/:featureId",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"armeo",
-												"point",
-												":featureId"
-											],
-											"variable": [
-												{
-													"key": "featureId",
-													"value": "<int>",
-													"description": "(Required) Feature id"
-												}
-											]
 										},
-										"description": "Removes a given feature."
-									},
-									"response": [
 										{
 											"name": "Feature removed",
 											"originalRequest": {
@@ -916,48 +958,6 @@
 											},
 											"status": "No Content",
 											"code": 204,
-											"_postman_previewlanguage": "text",
-											"header": [
-												{
-													"key": "Content-Type",
-													"value": "text/plain"
-												}
-											],
-											"cookie": [],
-											"body": ""
-										},
-										{
-											"name": "No such feature",
-											"originalRequest": {
-												"method": "DELETE",
-												"header": [
-													{
-														"description": "Added as a part of security scheme: basic",
-														"key": "Authorization",
-														"value": "Basic <credentials>"
-													}
-												],
-												"url": {
-													"raw": "{{baseUrl}}/armeo/point/:featureId",
-													"host": [
-														"{{baseUrl}}"
-													],
-													"path": [
-														"armeo",
-														"point",
-														":featureId"
-													],
-													"variable": [
-														{
-															"key": "featureId",
-															"value": "<int>",
-															"description": "(Required) Feature id"
-														}
-													]
-												}
-											},
-											"status": "Not Found",
-											"code": 404,
 											"_postman_previewlanguage": "text",
 											"header": [
 												{
@@ -1005,6 +1005,52 @@
 										"description": "Updates given feature.\n\nRequest payload must provide two properties - geometry containing a geoJSON geometry and properties contating feature properties.\n"
 									},
 									"response": [
+										{
+											"name": "No such feature",
+											"originalRequest": {
+												"method": "PUT",
+												"header": [
+													{
+														"description": "Added as a part of security scheme: basic",
+														"key": "Authorization",
+														"value": "Basic <credentials>"
+													}
+												],
+												"body": {
+													"mode": "urlencoded",
+													"urlencoded": []
+												},
+												"url": {
+													"raw": "{{baseUrl}}/armeo/point/:featureId",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"armeo",
+														"point",
+														":featureId"
+													],
+													"variable": [
+														{
+															"key": "featureId",
+															"value": "<int>",
+															"description": "(Required) Feature id"
+														}
+													]
+												}
+											},
+											"status": "Not Found",
+											"code": 404,
+											"_postman_previewlanguage": "text",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "text/plain"
+												}
+											],
+											"cookie": [],
+											"body": ""
+										},
 										{
 											"name": "Bad request",
 											"originalRequest": {
@@ -1087,52 +1133,6 @@
 											},
 											"status": "OK",
 											"code": 200,
-											"_postman_previewlanguage": "text",
-											"header": [
-												{
-													"key": "Content-Type",
-													"value": "text/plain"
-												}
-											],
-											"cookie": [],
-											"body": ""
-										},
-										{
-											"name": "No such feature",
-											"originalRequest": {
-												"method": "PUT",
-												"header": [
-													{
-														"description": "Added as a part of security scheme: basic",
-														"key": "Authorization",
-														"value": "Basic <credentials>"
-													}
-												],
-												"body": {
-													"mode": "urlencoded",
-													"urlencoded": []
-												},
-												"url": {
-													"raw": "{{baseUrl}}/armeo/point/:featureId",
-													"host": [
-														"{{baseUrl}}"
-													],
-													"path": [
-														"armeo",
-														"point",
-														":featureId"
-													],
-													"variable": [
-														{
-															"key": "featureId",
-															"value": "<int>",
-															"description": "(Required) Feature id"
-														}
-													]
-												}
-											},
-											"status": "Not Found",
-											"code": 404,
 											"_postman_previewlanguage": "text",
 											"header": [
 												{
@@ -3180,104 +3180,6 @@
 									},
 									"response": [
 										{
-											"name": "OK",
-											"originalRequest": {
-												"method": "GET",
-												"header": [
-													{
-														"description": "Added as a part of security scheme: basic",
-														"key": "Authorization",
-														"value": "Basic <credentials>"
-													}
-												],
-												"url": {
-													"raw": "{{baseUrl}}/indicator/:indicatorId/rasterBuffer/:dateId?geometry=<string>&srcSrid=4326&bufSize=300&srid=<integer>&minCover=<float>&dateFrom=<date>&dateTo=<date>&period=<integer>&rasterFormat=<string>&encode=base64&scale=raw&colorMap=<string>",
-													"host": [
-														"{{baseUrl}}"
-													],
-													"path": [
-														"indicator",
-														":indicatorId",
-														"rasterBuffer",
-														":dateId"
-													],
-													"query": [
-														{
-															"key": "geometry",
-															"value": "<string>"
-														},
-														{
-															"key": "srcSrid",
-															"value": "4326"
-														},
-														{
-															"key": "bufSize",
-															"value": "300"
-														},
-														{
-															"key": "srid",
-															"value": "<integer>"
-														},
-														{
-															"key": "minCover",
-															"value": "<float>"
-														},
-														{
-															"key": "dateFrom",
-															"value": "<date>"
-														},
-														{
-															"key": "dateTo",
-															"value": "<date>"
-														},
-														{
-															"key": "period",
-															"value": "<integer>"
-														},
-														{
-															"key": "rasterFormat",
-															"value": "<string>"
-														},
-														{
-															"key": "encode",
-															"value": "base64"
-														},
-														{
-															"key": "scale",
-															"value": "raw"
-														},
-														{
-															"key": "colorMap",
-															"value": "<string>"
-														}
-													],
-													"variable": [
-														{
-															"key": "indicatorId",
-															"value": "<string>",
-															"description": "(Required) Indicator name.\n\nThe `/indicator` endpoint provides a list of all available indicators.\n\nIndicators availbility may vary across both spatial and temporal domain.\n"
-														},
-														{
-															"key": "dateId",
-															"value": "<string>",
-															"description": "(Required) Requested date. A special value of `now` indicates the current date."
-														}
-													]
-												}
-											},
-											"status": "OK",
-											"code": 200,
-											"_postman_previewlanguage": "json",
-											"header": [
-												{
-													"key": "Content-Type",
-													"value": "application/json"
-												}
-											],
-											"cookie": [],
-											"body": "{\n  \"date\": \"2020-08-20\",\n  \"raster\": \"iVBORw0KGgoAAAANSUhEUgAAAA0AAAAJCAYAAADpeqZqAAAAlElEQVQYlZWQMQ7CQAwEZyWn4LEUvIA+LQ1FJMSreEKUhiJNiotkCnyJOaXBkouzZnd9Fk35A+cFzMAKGlDL6AcGmID3LuKU4NuXl99xxmSzRFuadUnYI2MESnIs0bWseQPGHILqltZhjdRuo/ELLgC/xn/yeiVENS1MNCDbVqpA2QEspQF6xiFqgJ8j7UB0dPa/6wMUxzHuhKNJpQAAAABJRU5ErkJggg==\",\n  \"envelope\": [\n    16.853542327868595,\n    48.224672649560645,\n    16.854486465441845,\n    48.22530164090307\n  ],\n  \"count\": 84,\n  \"sum\": 4663,\n  \"mean\": 55.51190476190476,\n  \"stddev\": 3.455478905610648,\n  \"min\": 51,\n  \"max\": 70,\n  \"cover\": 1\n}"
-										},
-										{
 											"name": "No data available for the requested region.",
 											"originalRequest": {
 												"method": "GET",
@@ -3374,6 +3276,104 @@
 											],
 											"cookie": [],
 											"body": ""
+										},
+										{
+											"name": "OK",
+											"originalRequest": {
+												"method": "GET",
+												"header": [
+													{
+														"description": "Added as a part of security scheme: basic",
+														"key": "Authorization",
+														"value": "Basic <credentials>"
+													}
+												],
+												"url": {
+													"raw": "{{baseUrl}}/indicator/:indicatorId/rasterBuffer/:dateId?geometry=<string>&srcSrid=4326&bufSize=300&srid=<integer>&minCover=<float>&dateFrom=<date>&dateTo=<date>&period=<integer>&rasterFormat=<string>&encode=base64&scale=raw&colorMap=<string>",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"indicator",
+														":indicatorId",
+														"rasterBuffer",
+														":dateId"
+													],
+													"query": [
+														{
+															"key": "geometry",
+															"value": "<string>"
+														},
+														{
+															"key": "srcSrid",
+															"value": "4326"
+														},
+														{
+															"key": "bufSize",
+															"value": "300"
+														},
+														{
+															"key": "srid",
+															"value": "<integer>"
+														},
+														{
+															"key": "minCover",
+															"value": "<float>"
+														},
+														{
+															"key": "dateFrom",
+															"value": "<date>"
+														},
+														{
+															"key": "dateTo",
+															"value": "<date>"
+														},
+														{
+															"key": "period",
+															"value": "<integer>"
+														},
+														{
+															"key": "rasterFormat",
+															"value": "<string>"
+														},
+														{
+															"key": "encode",
+															"value": "base64"
+														},
+														{
+															"key": "scale",
+															"value": "raw"
+														},
+														{
+															"key": "colorMap",
+															"value": "<string>"
+														}
+													],
+													"variable": [
+														{
+															"key": "indicatorId",
+															"value": "<string>",
+															"description": "(Required) Indicator name.\n\nThe `/indicator` endpoint provides a list of all available indicators.\n\nIndicators availbility may vary across both spatial and temporal domain.\n"
+														},
+														{
+															"key": "dateId",
+															"value": "<string>",
+															"description": "(Required) Requested date. A special value of `now` indicates the current date."
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "application/json"
+												}
+											],
+											"cookie": [],
+											"body": "{\n  \"date\": \"2020-08-20\",\n  \"raster\": \"iVBORw0KGgoAAAANSUhEUgAAAA0AAAAJCAYAAADpeqZqAAAAlElEQVQYlZWQMQ7CQAwEZyWn4LEUvIA+LQ1FJMSreEKUhiJNiotkCnyJOaXBkouzZnd9Fk35A+cFzMAKGlDL6AcGmID3LuKU4NuXl99xxmSzRFuadUnYI2MESnIs0bWseQPGHILqltZhjdRuo/ELLgC/xn/yeiVENS1MNCDbVqpA2QEspQF6xiFqgJ8j7UB0dPa/6wMUxzHuhKNJpQAAAABJRU5ErkJggg==\",\n  \"envelope\": [\n    16.853542327868595,\n    48.224672649560645,\n    16.854486465441845,\n    48.22530164090307\n  ],\n  \"count\": 84,\n  \"sum\": 4663,\n  \"mean\": 55.51190476190476,\n  \"stddev\": 3.455478905610648,\n  \"min\": 51,\n  \"max\": 70,\n  \"cover\": 1\n}"
 										}
 									]
 								}
@@ -3731,7 +3731,7 @@
 										}
 									],
 									"cookie": [],
-									"body": "officia veniam"
+									"body": "incididunt voluptate"
 								}
 							]
 						},
@@ -4005,7 +4005,7 @@
 										}
 									],
 									"cookie": [],
-									"body": "officia veniam"
+									"body": "incididunt voluptate"
 								}
 							]
 						},
@@ -4448,210 +4448,6 @@
 							},
 							"response": [
 								{
-									"name": "OK",
-									"originalRequest": {
-										"method": "GET",
-										"header": [
-											{
-												"description": "Added as a part of security scheme: basic",
-												"key": "Authorization",
-												"value": "Basic <credentials>"
-											}
-										],
-										"url": {
-											"raw": "{{baseUrl}}/indicator/:indicatorId/rasterData?polygonId=<integer>&ownerId=<string>&xyzId=<string>&geometry=<string>&bbox=<string>&srcSrid=4326&z=14&buffer=0&date=<date>&period=14&dateFrom=<date>&dateTo=<date>&daily=<string>&minCover=<float>&scale=raw&format=<string>&rasterFormat=<string>&colorMap=<string>&encode=<string>&position=center&limit=0&aggregate=none&srid=<integer>&interpolation=w&lambda=10&minValid=<int>&nLoops=3&startValue=0.3&endValue=0.35&minPeriodLength=60&slope=<float>&const=<float>&k=2&statsBuf=10&dates=<date>&etSrc=<string>&leafResistance=100&cropHeight=0.4&atmPressure=101.325&a=2.8",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"indicator",
-												":indicatorId",
-												"rasterData"
-											],
-											"query": [
-												{
-													"key": "polygonId",
-													"value": "<integer>"
-												},
-												{
-													"key": "ownerId",
-													"value": "<string>"
-												},
-												{
-													"key": "xyzId",
-													"value": "<string>"
-												},
-												{
-													"key": "geometry",
-													"value": "<string>"
-												},
-												{
-													"key": "bbox",
-													"value": "<string>"
-												},
-												{
-													"key": "srcSrid",
-													"value": "4326"
-												},
-												{
-													"key": "z",
-													"value": "14"
-												},
-												{
-													"key": "buffer",
-													"value": "0"
-												},
-												{
-													"key": "date",
-													"value": "<date>"
-												},
-												{
-													"key": "period",
-													"value": "14"
-												},
-												{
-													"key": "dateFrom",
-													"value": "<date>"
-												},
-												{
-													"key": "dateTo",
-													"value": "<date>"
-												},
-												{
-													"key": "daily",
-													"value": "<string>"
-												},
-												{
-													"key": "minCover",
-													"value": "<float>"
-												},
-												{
-													"key": "scale",
-													"value": "raw"
-												},
-												{
-													"key": "format",
-													"value": "<string>"
-												},
-												{
-													"key": "rasterFormat",
-													"value": "<string>"
-												},
-												{
-													"key": "colorMap",
-													"value": "<string>"
-												},
-												{
-													"key": "encode",
-													"value": "<string>"
-												},
-												{
-													"key": "position",
-													"value": "center"
-												},
-												{
-													"key": "limit",
-													"value": "0"
-												},
-												{
-													"key": "aggregate",
-													"value": "none"
-												},
-												{
-													"key": "srid",
-													"value": "<integer>"
-												},
-												{
-													"key": "interpolation",
-													"value": "w"
-												},
-												{
-													"key": "lambda",
-													"value": "10"
-												},
-												{
-													"key": "minValid",
-													"value": "<int>"
-												},
-												{
-													"key": "nLoops",
-													"value": "3"
-												},
-												{
-													"key": "startValue",
-													"value": "0.3"
-												},
-												{
-													"key": "endValue",
-													"value": "0.35"
-												},
-												{
-													"key": "minPeriodLength",
-													"value": "60"
-												},
-												{
-													"key": "slope",
-													"value": "<float>"
-												},
-												{
-													"key": "const",
-													"value": "<float>"
-												},
-												{
-													"key": "k",
-													"value": "2"
-												},
-												{
-													"key": "statsBuf",
-													"value": "10"
-												},
-												{
-													"key": "dates",
-													"value": "<date>"
-												},
-												{
-													"key": "etSrc",
-													"value": "<string>"
-												},
-												{
-													"key": "leafResistance",
-													"value": "100"
-												},
-												{
-													"key": "cropHeight",
-													"value": "0.4"
-												},
-												{
-													"key": "atmPressure",
-													"value": "101.325"
-												},
-												{
-													"key": "a",
-													"value": "2.8"
-												}
-											],
-											"variable": [
-												{
-													"key": "indicatorId",
-													"value": "<string>",
-													"description": "(Required) Indicator name.\n\nThe `/indicator` endpoint provides a list of all available indicators.\n\nIndicators availbility may vary across both spatial and temporal domain.\n"
-												}
-											]
-										}
-									},
-									"status": "OK",
-									"code": 200,
-									"_postman_previewlanguage": "json",
-									"header": [
-										{
-											"key": "Content-Type",
-											"value": "application/json"
-										}
-									],
-									"cookie": [],
-									"body": "[\n  {\n    \"count\": 3771,\n    \"cover\": 1,\n    \"date\": \"2020-09-28\",\n    \"envelope\": [\n      140.61641663087195,\n      -34.39826981205312,\n      140.62319725524713,\n      -34.39451618711456\n    ],\n    \"max\": 103,\n    \"mean\": 76.5685494563776,\n    \"min\": 48,\n    \"raster\": \"iVBORw0KGgoAAAANSUhEUgAAAFMAAAAuCAAAAABxZXrDAAAAAnRSTlMA/1uRIrUAAAVWSURBVEiJ\\nrZfNqiRKEYS/iKo+DuLKBxIFFfGZ3SmCb6Ny5c5Md0W4yOrxgj8IWrtDd2VnxV/mUX970tcLFhRJ\\nThBlg0Rf2EpZAlUHLPoVbPgd/+psrMN6lE0RxAlWWJ/PWmBADoCEVErzGW9XPy9SAYqamiTaPHQE\\nncskbrAKz6OFpEgUV1brUNQD7TRR5PkDCUE3j71Eyry4sQRAovUJ634ZyaQtpc8PWBvqW+hQWmDt\\nlzaAcGvAjUBtC5XMgqA3Uq1A1BeJ3J9HgNIptUEIBMRMKc4BUhuBy30EnSIdNiVW01I2KRTh040k\\nGigpyJCcJyi0ZBpDvL9B2zPwZ947XRLctrlsT81GyJykApkEAxYKVVFb2saMEFTUd+cUes6+b28J\\nri4KsmDpUitDoJq7beJvH3CrqqiiLZuHRBOKlqSG0XOQBJWGs3ougzSs3A9GFAXc2unmtXsVJ5uo\\n9WrGUkJ2o7KJhAs0q4fH6FlgFeFEBtndpEFbC2xRjQTCxUF48GiRFuXcZm1VYhoddOd3N3m+ZI29\\nnUYa+r2U4Ei2cihNbaA9ppUIRlIoAwWi2qiWJYGseSgm2OrbyhonjHZEC6kUmtskRUppYAPLA79A\\nbpC0JpR6yeYauyOKSLRNaeU3cy2QlM2pH5q7GtAQrPkYInhNfxr/abtGq62ARv0mKFV089L2aEFt\\nW1kQoCyDru4pXB9RaeR/m9MkSCXa440+PHigecsyQcTLH2T1eeIlKoa/Aj6xGVKIGcH0WKDNxycV\\nuaBKxQMrslp2tTqMTo+ClPZ6gVicAV8YSjb7o7kkjNSuRCUmIK4+uYHBu75Q9fZ+1WrazWa5oul4\\n2u9A04ikwpU7uV7fujf75NdY/Wb++GVDvs2bhqLgm82UyBf9gHrjopq6bmXfYG5nerF5OtJEaluy\\n31Hz9ZnNPoqsCtpkNTQ9OUOQSqboSdWInGz+/OnRoyV4FhK5tCye3z+/sEyjpYE8HRp6vjbLu2fy\\naWCeiVNtfvrJGX0mGU2dKObzV31iUzWyUCFDH+elPrakdXkNE53AyebHH3RU147UfaLCefgTj+nA\\nayQ8UuD1GR67NzZU+g+Kms2izbkDZ44lhf3wg081mfFBK06opJVaqLoPH9VKRXQTt+fFjSC3w1lm\\n8rbYN8ub95DDpy+JUG6GzChQT7w5u2mbuWQi27Q9r94Un1ky4212m9xXqa16s4XLxyZqGYG2HYmk\\nhdcR1Mw6MZncFDWzHYyG6cXs+o5uTqpNXu914lE5J+bgg2VET0LbFypNzxkrE7v9lmMyJWfzyvXV\\npL8u0ncWNMPO1Jz7ad7rkWiVd6cWTb05h4qcOwI0r78OhwZp8rlpBjX5To2h6e32QcIbVbmpSHof\\nMASjsbToAQbHeVBmaFTDUYHOkJc3ik40iAz7tD1oJPgOTGYruYvdu/bsOnw7RWKTw8msfW1bizTH\\nnLvq3Cnxdtsdd4hKbWeW8d5FJDZfdZewt4/aJoQZ5lIxLpzU83oPc/eWCIs7pGi0+YK9aI0skbwO\\n1jI+Bb5gJetysAES9nMkoDv8xqRCSN28kD9WZ/k0r5MKyXdv88xL71mDx7I6wuOh97YL4BbppQK/\\nsc4oz+rXo8fDLJ5f1k9YstqwFknVl6DqX57LIugdZX3nTJ6f9QPSAPj1l+f62MS8nvoRe+3ZKfc1\\nzkTLX7/uWVAGUtxKBpKvX/6p5g/Oz7pYfjSFj81SIk3N7z4vz/9EFMRKJYnkPP/0n2r+8PzSrNXD\\nMoZ+9/3DUskV2bo7Uc7rj/y3Nf/N+cUJ1uaALO3vz+/5X2v+8PxK4m9/4P9a89v5O/Q+esgARGO2\\nAAAAAElFTkSuQmCC\",\n    \"stddev\": 11.6051569792828,\n    \"sum\": 288740\n  },\n  {\n    \"count\": 3762,\n    \"cover\": 0.997613365155131,\n    \"date\": \"2020-09-23\",\n    \"envelope\": [\n      140.61641663087195,\n      -34.39826981205312,\n      140.62319725524713,\n      -34.39451618711456\n    ],\n    \"max\": 165,\n    \"mean\": 94.3354598617756,\n    \"min\": 47,\n    \"raster\": \"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\\nRU5ErkJggg==\",\n    \"stddev\": 22.566592632579,\n    \"sum\": 354890\n  }\n]"
-								},
-								{
 									"name": "Wrong parameter values",
 									"originalRequest": {
 										"method": "GET",
@@ -4854,6 +4650,210 @@
 									],
 									"cookie": [],
 									"body": ""
+								},
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"description": "Added as a part of security scheme: basic",
+												"key": "Authorization",
+												"value": "Basic <credentials>"
+											}
+										],
+										"url": {
+											"raw": "{{baseUrl}}/indicator/:indicatorId/rasterData?polygonId=<integer>&ownerId=<string>&xyzId=<string>&geometry=<string>&bbox=<string>&srcSrid=4326&z=14&buffer=0&date=<date>&period=14&dateFrom=<date>&dateTo=<date>&daily=<string>&minCover=<float>&scale=raw&format=<string>&rasterFormat=<string>&colorMap=<string>&encode=<string>&position=center&limit=0&aggregate=none&srid=<integer>&interpolation=w&lambda=10&minValid=<int>&nLoops=3&startValue=0.3&endValue=0.35&minPeriodLength=60&slope=<float>&const=<float>&k=2&statsBuf=10&dates=<date>&etSrc=<string>&leafResistance=100&cropHeight=0.4&atmPressure=101.325&a=2.8",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"indicator",
+												":indicatorId",
+												"rasterData"
+											],
+											"query": [
+												{
+													"key": "polygonId",
+													"value": "<integer>"
+												},
+												{
+													"key": "ownerId",
+													"value": "<string>"
+												},
+												{
+													"key": "xyzId",
+													"value": "<string>"
+												},
+												{
+													"key": "geometry",
+													"value": "<string>"
+												},
+												{
+													"key": "bbox",
+													"value": "<string>"
+												},
+												{
+													"key": "srcSrid",
+													"value": "4326"
+												},
+												{
+													"key": "z",
+													"value": "14"
+												},
+												{
+													"key": "buffer",
+													"value": "0"
+												},
+												{
+													"key": "date",
+													"value": "<date>"
+												},
+												{
+													"key": "period",
+													"value": "14"
+												},
+												{
+													"key": "dateFrom",
+													"value": "<date>"
+												},
+												{
+													"key": "dateTo",
+													"value": "<date>"
+												},
+												{
+													"key": "daily",
+													"value": "<string>"
+												},
+												{
+													"key": "minCover",
+													"value": "<float>"
+												},
+												{
+													"key": "scale",
+													"value": "raw"
+												},
+												{
+													"key": "format",
+													"value": "<string>"
+												},
+												{
+													"key": "rasterFormat",
+													"value": "<string>"
+												},
+												{
+													"key": "colorMap",
+													"value": "<string>"
+												},
+												{
+													"key": "encode",
+													"value": "<string>"
+												},
+												{
+													"key": "position",
+													"value": "center"
+												},
+												{
+													"key": "limit",
+													"value": "0"
+												},
+												{
+													"key": "aggregate",
+													"value": "none"
+												},
+												{
+													"key": "srid",
+													"value": "<integer>"
+												},
+												{
+													"key": "interpolation",
+													"value": "w"
+												},
+												{
+													"key": "lambda",
+													"value": "10"
+												},
+												{
+													"key": "minValid",
+													"value": "<int>"
+												},
+												{
+													"key": "nLoops",
+													"value": "3"
+												},
+												{
+													"key": "startValue",
+													"value": "0.3"
+												},
+												{
+													"key": "endValue",
+													"value": "0.35"
+												},
+												{
+													"key": "minPeriodLength",
+													"value": "60"
+												},
+												{
+													"key": "slope",
+													"value": "<float>"
+												},
+												{
+													"key": "const",
+													"value": "<float>"
+												},
+												{
+													"key": "k",
+													"value": "2"
+												},
+												{
+													"key": "statsBuf",
+													"value": "10"
+												},
+												{
+													"key": "dates",
+													"value": "<date>"
+												},
+												{
+													"key": "etSrc",
+													"value": "<string>"
+												},
+												{
+													"key": "leafResistance",
+													"value": "100"
+												},
+												{
+													"key": "cropHeight",
+													"value": "0.4"
+												},
+												{
+													"key": "atmPressure",
+													"value": "101.325"
+												},
+												{
+													"key": "a",
+													"value": "2.8"
+												}
+											],
+											"variable": [
+												{
+													"key": "indicatorId",
+													"value": "<string>",
+													"description": "(Required) Indicator name.\n\nThe `/indicator` endpoint provides a list of all available indicators.\n\nIndicators availbility may vary across both spatial and temporal domain.\n"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "[\n  {\n    \"count\": 3771,\n    \"cover\": 1,\n    \"date\": \"2020-09-28\",\n    \"envelope\": [\n      140.61641663087195,\n      -34.39826981205312,\n      140.62319725524713,\n      -34.39451618711456\n    ],\n    \"max\": 103,\n    \"mean\": 76.5685494563776,\n    \"min\": 48,\n    \"raster\": \"iVBORw0KGgoAAAANSUhEUgAAAFMAAAAuCAAAAABxZXrDAAAAAnRSTlMA/1uRIrUAAAVWSURBVEiJ\\nrZfNqiRKEYS/iKo+DuLKBxIFFfGZ3SmCb6Ny5c5Md0W4yOrxgj8IWrtDd2VnxV/mUX970tcLFhRJ\\nThBlg0Rf2EpZAlUHLPoVbPgd/+psrMN6lE0RxAlWWJ/PWmBADoCEVErzGW9XPy9SAYqamiTaPHQE\\nncskbrAKz6OFpEgUV1brUNQD7TRR5PkDCUE3j71Eyry4sQRAovUJ634ZyaQtpc8PWBvqW+hQWmDt\\nlzaAcGvAjUBtC5XMgqA3Uq1A1BeJ3J9HgNIptUEIBMRMKc4BUhuBy30EnSIdNiVW01I2KRTh040k\\nGigpyJCcJyi0ZBpDvL9B2zPwZ947XRLctrlsT81GyJykApkEAxYKVVFb2saMEFTUd+cUes6+b28J\\nri4KsmDpUitDoJq7beJvH3CrqqiiLZuHRBOKlqSG0XOQBJWGs3ougzSs3A9GFAXc2unmtXsVJ5uo\\n9WrGUkJ2o7KJhAs0q4fH6FlgFeFEBtndpEFbC2xRjQTCxUF48GiRFuXcZm1VYhoddOd3N3m+ZI29\\nnUYa+r2U4Ei2cihNbaA9ppUIRlIoAwWi2qiWJYGseSgm2OrbyhonjHZEC6kUmtskRUppYAPLA79A\\nbpC0JpR6yeYauyOKSLRNaeU3cy2QlM2pH5q7GtAQrPkYInhNfxr/abtGq62ARv0mKFV089L2aEFt\\nW1kQoCyDru4pXB9RaeR/m9MkSCXa440+PHigecsyQcTLH2T1eeIlKoa/Aj6xGVKIGcH0WKDNxycV\\nuaBKxQMrslp2tTqMTo+ClPZ6gVicAV8YSjb7o7kkjNSuRCUmIK4+uYHBu75Q9fZ+1WrazWa5oul4\\n2u9A04ikwpU7uV7fujf75NdY/Wb++GVDvs2bhqLgm82UyBf9gHrjopq6bmXfYG5nerF5OtJEaluy\\n31Hz9ZnNPoqsCtpkNTQ9OUOQSqboSdWInGz+/OnRoyV4FhK5tCye3z+/sEyjpYE8HRp6vjbLu2fy\\naWCeiVNtfvrJGX0mGU2dKObzV31iUzWyUCFDH+elPrakdXkNE53AyebHH3RU147UfaLCefgTj+nA\\nayQ8UuD1GR67NzZU+g+Kms2izbkDZ44lhf3wg081mfFBK06opJVaqLoPH9VKRXQTt+fFjSC3w1lm\\n8rbYN8ub95DDpy+JUG6GzChQT7w5u2mbuWQi27Q9r94Un1ky4212m9xXqa16s4XLxyZqGYG2HYmk\\nhdcR1Mw6MZncFDWzHYyG6cXs+o5uTqpNXu914lE5J+bgg2VET0LbFypNzxkrE7v9lmMyJWfzyvXV\\npL8u0ncWNMPO1Jz7ad7rkWiVd6cWTb05h4qcOwI0r78OhwZp8rlpBjX5To2h6e32QcIbVbmpSHof\\nMASjsbToAQbHeVBmaFTDUYHOkJc3ik40iAz7tD1oJPgOTGYruYvdu/bsOnw7RWKTw8msfW1bizTH\\nnLvq3Cnxdtsdd4hKbWeW8d5FJDZfdZewt4/aJoQZ5lIxLpzU83oPc/eWCIs7pGi0+YK9aI0skbwO\\n1jI+Bb5gJetysAES9nMkoDv8xqRCSN28kD9WZ/k0r5MKyXdv88xL71mDx7I6wuOh97YL4BbppQK/\\nsc4oz+rXo8fDLJ5f1k9YstqwFknVl6DqX57LIugdZX3nTJ6f9QPSAPj1l+f62MS8nvoRe+3ZKfc1\\nzkTLX7/uWVAGUtxKBpKvX/6p5g/Oz7pYfjSFj81SIk3N7z4vz/9EFMRKJYnkPP/0n2r+8PzSrNXD\\nMoZ+9/3DUskV2bo7Uc7rj/y3Nf/N+cUJ1uaALO3vz+/5X2v+8PxK4m9/4P9a89v5O/Q+esgARGO2\\nAAAAAElFTkSuQmCC\",\n    \"stddev\": 11.6051569792828,\n    \"sum\": 288740\n  },\n  {\n    \"count\": 3762,\n    \"cover\": 0.997613365155131,\n    \"date\": \"2020-09-23\",\n    \"envelope\": [\n      140.61641663087195,\n      -34.39826981205312,\n      140.62319725524713,\n      -34.39451618711456\n    ],\n    \"max\": 165,\n    \"mean\": 94.3354598617756,\n    \"min\": 47,\n    \"raster\": \"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\\nRU5ErkJggg==\",\n    \"stddev\": 22.566592632579,\n    \"sum\": 354890\n  }\n]"
 								}
 							]
 						}
@@ -4919,6 +4919,544 @@
 			]
 		},
 		{
+			"name": "roi",
+			"item": [
+				{
+					"name": "{roi Id}",
+					"item": [
+						{
+							"name": "/roi/:roiId",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/roi/:roiId?srid=<integer>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"roi",
+										":roiId"
+									],
+									"query": [
+										{
+											"key": "srid",
+											"value": "<integer>",
+											"description": "An EPSG code of returned spatial objects projection, e.g. 4326 (WGS-84) or 3857 (Web Mercator)\n\nIf not provided `srcSrid` parameter value is used and if `srcSrid` parameter isn't provided as well, a default value of `4326` is assumed.\n"
+										}
+									],
+									"variable": [
+										{
+											"key": "roiId",
+											"value": "<string>",
+											"description": "(Required) Name of the Region Of Interest"
+										}
+									]
+								},
+								"description": "Provides information on a given region of interest"
+							},
+							"response": [
+								{
+									"name": "No such region of interest",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"description": "Added as a part of security scheme: basic",
+												"key": "Authorization",
+												"value": "Basic <credentials>"
+											}
+										],
+										"url": {
+											"raw": "{{baseUrl}}/roi/:roiId?srid=<integer>",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"roi",
+												":roiId"
+											],
+											"query": [
+												{
+													"key": "srid",
+													"value": "<integer>"
+												}
+											],
+											"variable": [
+												{
+													"key": "roiId",
+													"value": "<string>",
+													"description": "(Required) Name of the Region Of Interest"
+												}
+											]
+										}
+									},
+									"status": "Not Found",
+									"code": 404,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"description": "Added as a part of security scheme: basic",
+												"key": "Authorization",
+												"value": "Basic <credentials>"
+											}
+										],
+										"url": {
+											"raw": "{{baseUrl}}/roi/:roiId?srid=<integer>",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"roi",
+												":roiId"
+											],
+											"query": [
+												{
+													"key": "srid",
+													"value": "<integer>"
+												}
+											],
+											"variable": [
+												{
+													"key": "roiId",
+													"value": "<string>",
+													"description": "(Required) Name of the Region Of Interest"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"userId\": \"demo\",\n  \"roi\": \"foo\",\n  \"since\": null,\n  \"until\": null,\n  \"period\": \"30 days\",\n  \"cloudCovMax\": 50,\n  \"utms\": [\n    \"54HXC\",\n    \"54HWK\"\n  ],\n  \"geometry\": \"{\\\"type\\\":\\\"MultiPolygon\\\",\\\"coordinates\\\":[[[[142.138073932,-37.94208532],[142.153715044,-38.931429496],[143.419717153,-38.912046738],[143.386942158,-37.923373495],[142.138073932,-37.94208532]]],[[[140.999789091,-31.635005773],[140.999786799,-32.62558044],[142.170152398,-32.620128597],[142.157579092,-31.629758148],[140.999789091,-31.635005773]]]]}\",\n  \"indicators\": {\n    \"lai\": {\n      \"daily\": true,\n      \"period\": \"30 days\"\n    }\n  }\n}"
+								}
+							]
+						},
+						{
+							"name": "/roi/:roiId",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/roi/:roiId",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"roi",
+										":roiId"
+									],
+									"variable": [
+										{
+											"key": "roiId",
+											"value": "<string>",
+											"description": "(Required) Name of the Region Of Interest"
+										}
+									]
+								},
+								"description": "Removes a given Region Of Interest"
+							},
+							"response": [
+								{
+									"name": "Region of interest deleted",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [
+											{
+												"description": "Added as a part of security scheme: basic",
+												"key": "Authorization",
+												"value": "Basic <credentials>"
+											}
+										],
+										"url": {
+											"raw": "{{baseUrl}}/roi/:roiId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"roi",
+												":roiId"
+											],
+											"variable": [
+												{
+													"key": "roiId",
+													"value": "<string>",
+													"description": "(Required) Name of the Region Of Interest"
+												}
+											]
+										}
+									},
+									"status": "No Content",
+									"code": 204,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "No such region of interest",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [
+											{
+												"description": "Added as a part of security scheme: basic",
+												"key": "Authorization",
+												"value": "Basic <credentials>"
+											}
+										],
+										"url": {
+											"raw": "{{baseUrl}}/roi/:roiId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"roi",
+												":roiId"
+											],
+											"variable": [
+												{
+													"key": "roiId",
+													"value": "<string>",
+													"description": "(Required) Name of the Region Of Interest"
+												}
+											]
+										}
+									},
+									"status": "Not Found",
+									"code": 404,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "/roi/:roiId",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"since\": \"<date>\",\n  \"until\": \"<date>\",\n  \"period\": \"<string>\",\n  \"cloudCovMax\": \"<number>\",\n  \"utms\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"geometry\": \"<object>\",\n  \"srcSrid\": 4326,\n  \"indicators\": \"<object>\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/roi/:roiId?srid=<integer>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"roi",
+										":roiId"
+									],
+									"query": [
+										{
+											"key": "srid",
+											"value": "<integer>",
+											"description": "An EPSG code of returned spatial objects projection, e.g. 4326 (WGS-84) or 3857 (Web Mercator)\n\nIf not provided `srcSrid` parameter value is used and if `srcSrid` parameter isn't provided as well, a default value of `4326` is assumed.\n"
+										}
+									],
+									"variable": [
+										{
+											"key": "roiId",
+											"value": "<string>",
+											"description": "(Required) Name of the Region Of Interest"
+										}
+									]
+								},
+								"description": "Creates/updates a given Region Of Interest.\n\nReturns created/updated region of interest data (see the example in the GET `roi/{roiId}` endpoint).\n\nRegion of interest area can be specified either with an explicit UTM tiles list in the `utms` parameter or with a geoJSON geometry in the `geometry` paramater.\n"
+							},
+							"response": [
+								{
+									"name": "No such region of interest",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [
+											{
+												"description": "Added as a part of security scheme: basic",
+												"key": "Authorization",
+												"value": "Basic <credentials>"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"since\": null,\n  \"until\": null,\n  \"period\": \"10 days\",\n  \"cloudCovMax\": 50,\n  \"utms\": [\n    \"33UXP\",\n    \"33UVP\"\n  ],\n  \"indicators\": {\n    \"lai\": {\n      \"daily\": false\n    },\n    \"ndvi\": {\n      \"daily\": true,\n      \"period\": \"90 days\"\n    }\n  }\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/roi/:roiId?srid=<integer>",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"roi",
+												":roiId"
+											],
+											"query": [
+												{
+													"key": "srid",
+													"value": "<integer>"
+												}
+											],
+											"variable": [
+												{
+													"key": "roiId",
+													"value": "<string>",
+													"description": "(Required) Name of the Region Of Interest"
+												}
+											]
+										}
+									},
+									"status": "Not Found",
+									"code": 404,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Region of interest created",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [
+											{
+												"description": "Added as a part of security scheme: basic",
+												"key": "Authorization",
+												"value": "Basic <credentials>"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"since\": null,\n  \"until\": null,\n  \"period\": \"10 days\",\n  \"cloudCovMax\": 50,\n  \"utms\": [\n    \"33UXP\",\n    \"33UVP\"\n  ],\n  \"indicators\": {\n    \"lai\": {\n      \"daily\": false\n    },\n    \"ndvi\": {\n      \"daily\": true,\n      \"period\": \"90 days\"\n    }\n  }\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/roi/:roiId?srid=<integer>",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"roi",
+												":roiId"
+											],
+											"query": [
+												{
+													"key": "srid",
+													"value": "<integer>"
+												}
+											],
+											"variable": [
+												{
+													"key": "roiId",
+													"value": "<string>",
+													"description": "(Required) Name of the Region Of Interest"
+												}
+											]
+										}
+									},
+									"status": "Created",
+									"code": 201,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Region of interest updated",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [
+											{
+												"description": "Added as a part of security scheme: basic",
+												"key": "Authorization",
+												"value": "Basic <credentials>"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"since\": null,\n  \"until\": null,\n  \"period\": \"10 days\",\n  \"cloudCovMax\": 50,\n  \"utms\": [\n    \"33UXP\",\n    \"33UVP\"\n  ],\n  \"indicators\": {\n    \"lai\": {\n      \"daily\": false\n    },\n    \"ndvi\": {\n      \"daily\": true,\n      \"period\": \"90 days\"\n    }\n  }\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/roi/:roiId?srid=<integer>",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"roi",
+												":roiId"
+											],
+											"query": [
+												{
+													"key": "srid",
+													"value": "<integer>"
+												}
+											],
+											"variable": [
+												{
+													"key": "roiId",
+													"value": "<string>",
+													"description": "(Required) Name of the Region Of Interest"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "/roi",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/roi?srid=<integer>",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"roi"
+							],
+							"query": [
+								{
+									"key": "srid",
+									"value": "<integer>",
+									"description": "An EPSG code of returned spatial objects projection, e.g. 4326 (WGS-84) or 3857 (Web Mercator)\n\nIf not provided `srcSrid` parameter value is used and if `srcSrid` parameter isn't provided as well, a default value of `4326` is assumed.\n"
+								}
+							]
+						},
+						"description": "Provides information on all regions of interest"
+					},
+					"response": [
+						{
+							"name": "OK",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "Added as a part of security scheme: basic",
+										"key": "Authorization",
+										"value": "Basic <credentials>"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/roi?srid=<integer>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"roi"
+									],
+									"query": [
+										{
+											"key": "srid",
+											"value": "<integer>"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "[\n  {\n    \"userId\": \"demo\",\n    \"roi\": \"foo\",\n    \"since\": null,\n    \"until\": null,\n    \"period\": \"30 days\",\n    \"cloudCovMax\": 50,\n    \"utms\": [\n      \"54HXC\",\n      \"54HWK\"\n    ],\n    \"geometry\": \"{\\\"type\\\":\\\"MultiPolygon\\\",\\\"coordinates\\\":[[[[142.138073932,-37.94208532],[142.153715044,-38.931429496],[143.419717153,-38.912046738],[143.386942158,-37.923373495],[142.138073932,-37.94208532]]],[[[140.999789091,-31.635005773],[140.999786799,-32.62558044],[142.170152398,-32.620128597],[142.157579092,-31.629758148],[140.999789091,-31.635005773]]]]}\",\n    \"indicators\": {\n      \"lai\": {\n        \"daily\": true,\n        \"period\": \"30 days\"\n      }\n    }\n  }\n]"
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "classification",
 			"item": [
 				{
@@ -4944,61 +5482,61 @@
 										{
 											"key": "srcSrid",
 											"value": "4326",
-											"description": "Projection (SRID code) of the `geometry` parameter value",
+											"description": "undefined",
 											"type": "text"
 										},
 										{
 											"key": "geometry",
 											"value": "<string>",
-											"description": "geoJSON providing the area to be classified",
+											"description": "undefined",
 											"type": "text"
 										},
 										{
 											"key": "name",
 											"value": "<string>",
-											"description": "Optional name of the classification.\n\nClassifications are uniquely identified by sequentialy generated dates (it's done that way so results can be accessed in exacly same way as any other indicator). This parameter allows to define a descriptive label for the classification.\n",
+											"description": "undefined",
 											"type": "text"
 										},
 										{
 											"key": "dateFrom",
 											"value": "<date>",
-											"description": "Beginning of the classification time period",
+											"description": "undefined",
 											"type": "text"
 										},
 										{
 											"key": "dateTo",
 											"value": "<date>",
-											"description": "Ending of the classification time period",
+											"description": "undefined",
 											"type": "text"
 										},
 										{
 											"key": "minCover",
 											"value": "0.95",
-											"description": "Minimum coverege of both train and target data for a given feature (`indicator x date`) to be used in the classification.\n",
+											"description": "undefined",
 											"type": "text"
 										},
 										{
 											"key": "maxFeatures",
 											"value": "60",
-											"description": "Maximum number of features used for the classification.\n\nBigger number generally increases classification accuracy but lower the number of features, the quicker classification is performed.\n\nFeatures are selected using the mutual information criterion.\n",
+											"description": "undefined",
 											"type": "text"
 										},
 										{
 											"key": "nTrees",
 											"value": "100",
-											"description": "Number of trees used by the random forest classification algorithm.",
+											"description": "undefined",
 											"type": "text"
 										},
 										{
 											"key": "minProb",
 											"value": "0.66",
-											"description": "Minimum probability to keep the predicted class in the output. Pixels with lower probability are assigned the `ambigous` class.",
+											"description": "undefined",
 											"type": "text"
 										},
 										{
 											"key": "indicators",
 											"value": "[\"blue\",\"green\",\"red\",\"nir\",\"swir\",\"ndvi\",\"ndmi\",\"ccc\",\"fapar\",\"fcover\",\"lai\",\"str\"]",
-											"description": "List of indicators (see the `/indicator` endpoint) used for the classifciation.",
+											"description": "undefined",
 											"type": "text"
 										}
 									]
@@ -5024,112 +5562,6 @@
 							},
 							"response": [
 								{
-									"name": "Classification performed.",
-									"originalRequest": {
-										"method": "PUT",
-										"header": [
-											{
-												"description": "Added as a part of security scheme: basic",
-												"key": "Authorization",
-												"value": "Basic <credentials>"
-											}
-										],
-										"body": {
-											"mode": "formdata",
-											"formdata": [
-												{
-													"key": "srcSrid",
-													"value": "4326",
-													"description": "Projection (SRID code) of the `geometry` parameter value",
-													"type": "text"
-												},
-												{
-													"key": "geometry",
-													"value": "<string>",
-													"description": "geoJSON providing the area to be classified",
-													"type": "text"
-												},
-												{
-													"key": "name",
-													"value": "<string>",
-													"description": "Optional name of the classification.\n\nClassifications are uniquely identified by sequentialy generated dates (it's done that way so results can be accessed in exacly same way as any other indicator). This parameter allows to define a descriptive label for the classification.\n",
-													"type": "text"
-												},
-												{
-													"key": "dateFrom",
-													"value": "<date>",
-													"description": "Beginning of the classification time period",
-													"type": "text"
-												},
-												{
-													"key": "dateTo",
-													"value": "<date>",
-													"description": "Ending of the classification time period",
-													"type": "text"
-												},
-												{
-													"key": "minCover",
-													"value": "0.95",
-													"description": "Minimum coverege of both train and target data for a given feature (`indicator x date`) to be used in the classification.\n",
-													"type": "text"
-												},
-												{
-													"key": "maxFeatures",
-													"value": "60",
-													"description": "Maximum number of features used for the classification.\n\nBigger number generally increases classification accuracy but lower the number of features, the quicker classification is performed.\n\nFeatures are selected using the mutual information criterion.\n",
-													"type": "text"
-												},
-												{
-													"key": "nTrees",
-													"value": "100",
-													"description": "Number of trees used by the random forest classification algorithm.",
-													"type": "text"
-												},
-												{
-													"key": "minProb",
-													"value": "0.66",
-													"description": "Minimum probability to keep the predicted class in the output. Pixels with lower probability are assigned the `ambigous` class.",
-													"type": "text"
-												},
-												{
-													"key": "indicators",
-													"value": "[\"blue\",\"green\",\"red\",\"nir\",\"swir\",\"ndvi\",\"ndmi\",\"ccc\",\"fapar\",\"fcover\",\"lai\",\"str\"]",
-													"description": "List of indicators (see the `/indicator` endpoint) used for the classifciation.",
-													"type": "text"
-												}
-											]
-										},
-										"url": {
-											"raw": "{{baseUrl}}/classification/:dateId",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"classification",
-												":dateId"
-											],
-											"variable": [
-												{
-													"key": "dateId",
-													"value": "<date>",
-													"description": "(Required) Base classification identifier - see GET on the `/classification` endpoint"
-												}
-											]
-										}
-									},
-									"status": "OK",
-									"code": 200,
-									"_postman_previewlanguage": "json",
-									"header": [
-										{
-											"key": "Content-Type",
-											"value": "application/json"
-										}
-									],
-									"cookie": [],
-									"body": "{\n  \"user_id\": \"coala\",\n  \"date\": \"2000-01-01T00:00:00.000Z\",\n  \"name\": \"example\",\n  \"state\": \"finished\",\n  \"remarks\": null,\n  \"starttime\": \"2021-09-16T12:55:11.553Z\",\n  \"endtime\": \"2021-09-16T12:58:15.209Z\",\n  \"log\": \"INFO:2021-09-16 14:55:14,503: Reading reference data\\nINFO:2021-09-16 14:55:16,220: Projecting target geometry to indicator zoom levels (...)\\n\",\n  \"params\": {\n    \"nJobs\": 2,\n    \"dateFrom\": \"2018-04-01T00:00:00.000Z\",\n    \"dateTo\": \"2018-09-30T00:00:00.000Z\",\n    \"nTrees\": 100,\n    \"minProb\": 0.66,\n    \"maxFeatures\": 60,\n    \"minCover\": 0.95,\n    \"srcSrid\": 4326,\n    \"geometry\": \"{\\\"type\\\":\\\"Polygon\\\",\\\"coordinates\\\":[[[16.5673,48.2101],[16.5673,48.2391],[16.5893,48.2391],[16.5893,48.2101],[16.5673,48.2101]]]}\",\n    \"indicators\": [\n      \"blue\",\n      \"green\",\n      \"red\",\n      \"nir\",\n      \"swir\",\n      \"ndvi\",\n      \"ndmi\",\n      \"ccc\",\n      \"fapar\",\n      \"fcover\",\n      \"lai\",\n      \"str\"\n    ]\n  },\n  \"refdata\": [\n    {\n      \"x\": 16.6391140924664,\n      \"y\": 48.206487648352,\n      \"label\": \"Mais\"\n    },\n    {\n      \"x\": 16.6337805808201,\n      \"y\": 48.2059966592951,\n      \"label\": \"Mais\"\n    }\n  ]\n}"
-								},
-								{
 									"name": "Bad Request - required parameters are misssing",
 									"originalRequest": {
 										"method": "PUT",
@@ -5146,61 +5578,61 @@
 												{
 													"key": "srcSrid",
 													"value": "4326",
-													"description": "Projection (SRID code) of the `geometry` parameter value",
+													"description": "undefined",
 													"type": "text"
 												},
 												{
 													"key": "geometry",
 													"value": "<string>",
-													"description": "geoJSON providing the area to be classified",
+													"description": "undefined",
 													"type": "text"
 												},
 												{
 													"key": "name",
 													"value": "<string>",
-													"description": "Optional name of the classification.\n\nClassifications are uniquely identified by sequentialy generated dates (it's done that way so results can be accessed in exacly same way as any other indicator). This parameter allows to define a descriptive label for the classification.\n",
+													"description": "undefined",
 													"type": "text"
 												},
 												{
 													"key": "dateFrom",
 													"value": "<date>",
-													"description": "Beginning of the classification time period",
+													"description": "undefined",
 													"type": "text"
 												},
 												{
 													"key": "dateTo",
 													"value": "<date>",
-													"description": "Ending of the classification time period",
+													"description": "undefined",
 													"type": "text"
 												},
 												{
 													"key": "minCover",
 													"value": "0.95",
-													"description": "Minimum coverege of both train and target data for a given feature (`indicator x date`) to be used in the classification.\n",
+													"description": "undefined",
 													"type": "text"
 												},
 												{
 													"key": "maxFeatures",
 													"value": "60",
-													"description": "Maximum number of features used for the classification.\n\nBigger number generally increases classification accuracy but lower the number of features, the quicker classification is performed.\n\nFeatures are selected using the mutual information criterion.\n",
+													"description": "undefined",
 													"type": "text"
 												},
 												{
 													"key": "nTrees",
 													"value": "100",
-													"description": "Number of trees used by the random forest classification algorithm.",
+													"description": "undefined",
 													"type": "text"
 												},
 												{
 													"key": "minProb",
 													"value": "0.66",
-													"description": "Minimum probability to keep the predicted class in the output. Pixels with lower probability are assigned the `ambigous` class.",
+													"description": "undefined",
 													"type": "text"
 												},
 												{
 													"key": "indicators",
 													"value": "[\"blue\",\"green\",\"red\",\"nir\",\"swir\",\"ndvi\",\"ndmi\",\"ccc\",\"fapar\",\"fcover\",\"lai\",\"str\"]",
-													"description": "List of indicators (see the `/indicator` endpoint) used for the classifciation.",
+													"description": "undefined",
 													"type": "text"
 												}
 											]
@@ -5234,6 +5666,112 @@
 									],
 									"cookie": [],
 									"body": ""
+								},
+								{
+									"name": "Classification performed.",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [
+											{
+												"description": "Added as a part of security scheme: basic",
+												"key": "Authorization",
+												"value": "Basic <credentials>"
+											}
+										],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "srcSrid",
+													"value": "4326",
+													"description": "undefined",
+													"type": "text"
+												},
+												{
+													"key": "geometry",
+													"value": "<string>",
+													"description": "undefined",
+													"type": "text"
+												},
+												{
+													"key": "name",
+													"value": "<string>",
+													"description": "undefined",
+													"type": "text"
+												},
+												{
+													"key": "dateFrom",
+													"value": "<date>",
+													"description": "undefined",
+													"type": "text"
+												},
+												{
+													"key": "dateTo",
+													"value": "<date>",
+													"description": "undefined",
+													"type": "text"
+												},
+												{
+													"key": "minCover",
+													"value": "0.95",
+													"description": "undefined",
+													"type": "text"
+												},
+												{
+													"key": "maxFeatures",
+													"value": "60",
+													"description": "undefined",
+													"type": "text"
+												},
+												{
+													"key": "nTrees",
+													"value": "100",
+													"description": "undefined",
+													"type": "text"
+												},
+												{
+													"key": "minProb",
+													"value": "0.66",
+													"description": "undefined",
+													"type": "text"
+												},
+												{
+													"key": "indicators",
+													"value": "[\"blue\",\"green\",\"red\",\"nir\",\"swir\",\"ndvi\",\"ndmi\",\"ccc\",\"fapar\",\"fcover\",\"lai\",\"str\"]",
+													"description": "undefined",
+													"type": "text"
+												}
+											]
+										},
+										"url": {
+											"raw": "{{baseUrl}}/classification/:dateId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"classification",
+												":dateId"
+											],
+											"variable": [
+												{
+													"key": "dateId",
+													"value": "<date>",
+													"description": "(Required) Base classification identifier - see GET on the `/classification` endpoint"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"user_id\": \"coala\",\n  \"date\": \"2000-01-01T00:00:00.000Z\",\n  \"name\": \"example\",\n  \"state\": \"finished\",\n  \"remarks\": null,\n  \"starttime\": \"2021-09-16T12:55:11.553Z\",\n  \"endtime\": \"2021-09-16T12:58:15.209Z\",\n  \"log\": \"INFO:2021-09-16 14:55:14,503: Reading reference data\\nINFO:2021-09-16 14:55:16,220: Projecting target geometry to indicator zoom levels (...)\\n\",\n  \"params\": {\n    \"nJobs\": 2,\n    \"dateFrom\": \"2018-04-01T00:00:00.000Z\",\n    \"dateTo\": \"2018-09-30T00:00:00.000Z\",\n    \"nTrees\": 100,\n    \"minProb\": 0.66,\n    \"maxFeatures\": 60,\n    \"minCover\": 0.95,\n    \"srcSrid\": 4326,\n    \"geometry\": \"{\\\"type\\\":\\\"Polygon\\\",\\\"coordinates\\\":[[[16.5673,48.2101],[16.5673,48.2391],[16.5893,48.2391],[16.5893,48.2101],[16.5673,48.2101]]]}\",\n    \"indicators\": [\n      \"blue\",\n      \"green\",\n      \"red\",\n      \"nir\",\n      \"swir\",\n      \"ndvi\",\n      \"ndmi\",\n      \"ccc\",\n      \"fapar\",\n      \"fcover\",\n      \"lai\",\n      \"str\"\n    ]\n  },\n  \"refdata\": [\n    {\n      \"x\": 16.6391140924664,\n      \"y\": 48.206487648352,\n      \"label\": \"Mais\"\n    },\n    {\n      \"x\": 16.6337805808201,\n      \"y\": 48.2059966592951,\n      \"label\": \"Mais\"\n    }\n  ]\n}"
 								}
 							]
 						},
@@ -5257,61 +5795,61 @@
 										{
 											"key": "srcSrid",
 											"value": "4326",
-											"description": "Projection (SRID code) of the `geometry` parameter value",
+											"description": "undefined",
 											"type": "text"
 										},
 										{
 											"key": "geometry",
 											"value": "<string>",
-											"description": "geoJSON providing the area to be classified",
+											"description": "undefined",
 											"type": "text"
 										},
 										{
 											"key": "name",
 											"value": "<string>",
-											"description": "Optional name of the classification.\n\nClassifications are uniquely identified by sequentialy generated dates (it's done that way so results can be accessed in exacly same way as any other indicator). This parameter allows to define a descriptive label for the classification.\n",
+											"description": "undefined",
 											"type": "text"
 										},
 										{
 											"key": "dateFrom",
 											"value": "<date>",
-											"description": "Beginning of the classification time period",
+											"description": "undefined",
 											"type": "text"
 										},
 										{
 											"key": "dateTo",
 											"value": "<date>",
-											"description": "Ending of the classification time period",
+											"description": "undefined",
 											"type": "text"
 										},
 										{
 											"key": "minCover",
 											"value": "0.95",
-											"description": "Minimum coverege of both train and target data for a given feature (`indicator x date`) to be used in the classification.\n",
+											"description": "undefined",
 											"type": "text"
 										},
 										{
 											"key": "maxFeatures",
 											"value": "60",
-											"description": "Maximum number of features used for the classification.\n\nBigger number generally increases classification accuracy but lower the number of features, the quicker classification is performed.\n\nFeatures are selected using the mutual information criterion.\n",
+											"description": "undefined",
 											"type": "text"
 										},
 										{
 											"key": "nTrees",
 											"value": "100",
-											"description": "Number of trees used by the random forest classification algorithm.",
+											"description": "undefined",
 											"type": "text"
 										},
 										{
 											"key": "minProb",
 											"value": "0.66",
-											"description": "Minimum probability to keep the predicted class in the output. Pixels with lower probability are assigned the `ambigous` class.",
+											"description": "undefined",
 											"type": "text"
 										},
 										{
 											"key": "indicators",
 											"value": "[\"blue\",\"green\",\"red\",\"nir\",\"swir\",\"ndvi\",\"ndmi\",\"ccc\",\"fapar\",\"fcover\",\"lai\",\"str\"]",
-											"description": "List of indicators (see the `/indicator` endpoint) used for the classifciation.",
+											"description": "undefined",
 											"type": "text"
 										}
 									]
@@ -5353,61 +5891,61 @@
 												{
 													"key": "srcSrid",
 													"value": "4326",
-													"description": "Projection (SRID code) of the `geometry` parameter value",
+													"description": "undefined",
 													"type": "text"
 												},
 												{
 													"key": "geometry",
 													"value": "<string>",
-													"description": "geoJSON providing the area to be classified",
+													"description": "undefined",
 													"type": "text"
 												},
 												{
 													"key": "name",
 													"value": "<string>",
-													"description": "Optional name of the classification.\n\nClassifications are uniquely identified by sequentialy generated dates (it's done that way so results can be accessed in exacly same way as any other indicator). This parameter allows to define a descriptive label for the classification.\n",
+													"description": "undefined",
 													"type": "text"
 												},
 												{
 													"key": "dateFrom",
 													"value": "<date>",
-													"description": "Beginning of the classification time period",
+													"description": "undefined",
 													"type": "text"
 												},
 												{
 													"key": "dateTo",
 													"value": "<date>",
-													"description": "Ending of the classification time period",
+													"description": "undefined",
 													"type": "text"
 												},
 												{
 													"key": "minCover",
 													"value": "0.95",
-													"description": "Minimum coverege of both train and target data for a given feature (`indicator x date`) to be used in the classification.\n",
+													"description": "undefined",
 													"type": "text"
 												},
 												{
 													"key": "maxFeatures",
 													"value": "60",
-													"description": "Maximum number of features used for the classification.\n\nBigger number generally increases classification accuracy but lower the number of features, the quicker classification is performed.\n\nFeatures are selected using the mutual information criterion.\n",
+													"description": "undefined",
 													"type": "text"
 												},
 												{
 													"key": "nTrees",
 													"value": "100",
-													"description": "Number of trees used by the random forest classification algorithm.",
+													"description": "undefined",
 													"type": "text"
 												},
 												{
 													"key": "minProb",
 													"value": "0.66",
-													"description": "Minimum probability to keep the predicted class in the output. Pixels with lower probability are assigned the `ambigous` class.",
+													"description": "undefined",
 													"type": "text"
 												},
 												{
 													"key": "indicators",
 													"value": "[\"blue\",\"green\",\"red\",\"nir\",\"swir\",\"ndvi\",\"ndmi\",\"ccc\",\"fapar\",\"fcover\",\"lai\",\"str\"]",
-													"description": "List of indicators (see the `/indicator` endpoint) used for the classifciation.",
+													"description": "undefined",
 													"type": "text"
 												}
 											]
@@ -5459,61 +5997,61 @@
 												{
 													"key": "srcSrid",
 													"value": "4326",
-													"description": "Projection (SRID code) of the `geometry` parameter value",
+													"description": "undefined",
 													"type": "text"
 												},
 												{
 													"key": "geometry",
 													"value": "<string>",
-													"description": "geoJSON providing the area to be classified",
+													"description": "undefined",
 													"type": "text"
 												},
 												{
 													"key": "name",
 													"value": "<string>",
-													"description": "Optional name of the classification.\n\nClassifications are uniquely identified by sequentialy generated dates (it's done that way so results can be accessed in exacly same way as any other indicator). This parameter allows to define a descriptive label for the classification.\n",
+													"description": "undefined",
 													"type": "text"
 												},
 												{
 													"key": "dateFrom",
 													"value": "<date>",
-													"description": "Beginning of the classification time period",
+													"description": "undefined",
 													"type": "text"
 												},
 												{
 													"key": "dateTo",
 													"value": "<date>",
-													"description": "Ending of the classification time period",
+													"description": "undefined",
 													"type": "text"
 												},
 												{
 													"key": "minCover",
 													"value": "0.95",
-													"description": "Minimum coverege of both train and target data for a given feature (`indicator x date`) to be used in the classification.\n",
+													"description": "undefined",
 													"type": "text"
 												},
 												{
 													"key": "maxFeatures",
 													"value": "60",
-													"description": "Maximum number of features used for the classification.\n\nBigger number generally increases classification accuracy but lower the number of features, the quicker classification is performed.\n\nFeatures are selected using the mutual information criterion.\n",
+													"description": "undefined",
 													"type": "text"
 												},
 												{
 													"key": "nTrees",
 													"value": "100",
-													"description": "Number of trees used by the random forest classification algorithm.",
+													"description": "undefined",
 													"type": "text"
 												},
 												{
 													"key": "minProb",
 													"value": "0.66",
-													"description": "Minimum probability to keep the predicted class in the output. Pixels with lower probability are assigned the `ambigous` class.",
+													"description": "undefined",
 													"type": "text"
 												},
 												{
 													"key": "indicators",
 													"value": "[\"blue\",\"green\",\"red\",\"nir\",\"swir\",\"ndvi\",\"ndmi\",\"ccc\",\"fapar\",\"fcover\",\"lai\",\"str\"]",
-													"description": "List of indicators (see the `/indicator` endpoint) used for the classifciation.",
+													"description": "undefined",
 													"type": "text"
 												}
 											]
@@ -5572,61 +6110,61 @@
 								{
 									"key": "srcSrid",
 									"value": "4326",
-									"description": "Projection (SRID code) of the `geometry` parameter value",
+									"description": "undefined",
 									"type": "text"
 								},
 								{
 									"key": "geometry",
 									"value": "<string>",
-									"description": "geoJSON providing the area to be classified",
+									"description": "undefined",
 									"type": "text"
 								},
 								{
 									"key": "name",
 									"value": "<string>",
-									"description": "Optional name of the classification.\n\nClassifications are uniquely identified by sequentialy generated dates (it's done that way so results can be accessed in exacly same way as any other indicator). This parameter allows to define a descriptive label for the classification.\n",
+									"description": "undefined",
 									"type": "text"
 								},
 								{
 									"key": "dateFrom",
 									"value": "<date>",
-									"description": "Beginning of the classification time period",
+									"description": "undefined",
 									"type": "text"
 								},
 								{
 									"key": "dateTo",
 									"value": "<date>",
-									"description": "Ending of the classification time period",
+									"description": "undefined",
 									"type": "text"
 								},
 								{
 									"key": "minCover",
 									"value": "0.95",
-									"description": "Minimum coverege of both train and target data for a given feature (`indicator x date`) to be used in the classification.\n",
+									"description": "undefined",
 									"type": "text"
 								},
 								{
 									"key": "maxFeatures",
 									"value": "60",
-									"description": "Maximum number of features used for the classification.\n\nBigger number generally increases classification accuracy but lower the number of features, the quicker classification is performed.\n\nFeatures are selected using the mutual information criterion.\n",
+									"description": "undefined",
 									"type": "text"
 								},
 								{
 									"key": "nTrees",
 									"value": "100",
-									"description": "Number of trees used by the random forest classification algorithm.",
+									"description": "undefined",
 									"type": "text"
 								},
 								{
 									"key": "minProb",
 									"value": "0.66",
-									"description": "Minimum probability to keep the predicted class in the output. Pixels with lower probability are assigned the `ambigous` class.",
+									"description": "undefined",
 									"type": "text"
 								},
 								{
 									"key": "indicators",
 									"value": "[\"blue\",\"green\",\"red\",\"nir\",\"swir\",\"ndvi\",\"ndmi\",\"ccc\",\"fapar\",\"fcover\",\"lai\",\"str\"]",
-									"description": "List of indicators (see the `/indicator` endpoint) used for the classifciation.",
+									"description": "undefined",
 									"type": "text"
 								}
 							]
@@ -5644,104 +6182,6 @@
 					},
 					"response": [
 						{
-							"name": "Bad Request - required parameters are misssing",
-							"originalRequest": {
-								"method": "POST",
-								"header": [
-									{
-										"description": "Added as a part of security scheme: basic",
-										"key": "Authorization",
-										"value": "Basic <credentials>"
-									}
-								],
-								"body": {
-									"mode": "formdata",
-									"formdata": [
-										{
-											"key": "srcSrid",
-											"value": "4326",
-											"description": "Projection (SRID code) of the `geometry` parameter value",
-											"type": "text"
-										},
-										{
-											"key": "geometry",
-											"value": "<string>",
-											"description": "geoJSON providing the area to be classified",
-											"type": "text"
-										},
-										{
-											"key": "name",
-											"value": "<string>",
-											"description": "Optional name of the classification.\n\nClassifications are uniquely identified by sequentialy generated dates (it's done that way so results can be accessed in exacly same way as any other indicator). This parameter allows to define a descriptive label for the classification.\n",
-											"type": "text"
-										},
-										{
-											"key": "dateFrom",
-											"value": "<date>",
-											"description": "Beginning of the classification time period",
-											"type": "text"
-										},
-										{
-											"key": "dateTo",
-											"value": "<date>",
-											"description": "Ending of the classification time period",
-											"type": "text"
-										},
-										{
-											"key": "minCover",
-											"value": "0.95",
-											"description": "Minimum coverege of both train and target data for a given feature (`indicator x date`) to be used in the classification.\n",
-											"type": "text"
-										},
-										{
-											"key": "maxFeatures",
-											"value": "60",
-											"description": "Maximum number of features used for the classification.\n\nBigger number generally increases classification accuracy but lower the number of features, the quicker classification is performed.\n\nFeatures are selected using the mutual information criterion.\n",
-											"type": "text"
-										},
-										{
-											"key": "nTrees",
-											"value": "100",
-											"description": "Number of trees used by the random forest classification algorithm.",
-											"type": "text"
-										},
-										{
-											"key": "minProb",
-											"value": "0.66",
-											"description": "Minimum probability to keep the predicted class in the output. Pixels with lower probability are assigned the `ambigous` class.",
-											"type": "text"
-										},
-										{
-											"key": "indicators",
-											"value": "[\"blue\",\"green\",\"red\",\"nir\",\"swir\",\"ndvi\",\"ndmi\",\"ccc\",\"fapar\",\"fcover\",\"lai\",\"str\"]",
-											"description": "List of indicators (see the `/indicator` endpoint) used for the classifciation.",
-											"type": "text"
-										}
-									]
-								},
-								"url": {
-									"raw": "{{baseUrl}}/classification",
-									"host": [
-										"{{baseUrl}}"
-									],
-									"path": [
-										"classification"
-									]
-								}
-							},
-							"status": "Bad Request",
-							"code": 400,
-							"_postman_previewlanguage": "text",
-							"header": [
-								{
-									"key": "Content-Type",
-									"value": "text/plain"
-								}
-							],
-							"cookie": [],
-							"body": ""
-						},
-						{
 							"name": "Classification performed.",
 							"originalRequest": {
 								"method": "POST",
@@ -5758,61 +6198,61 @@
 										{
 											"key": "srcSrid",
 											"value": "4326",
-											"description": "Projection (SRID code) of the `geometry` parameter value",
+											"description": "undefined",
 											"type": "text"
 										},
 										{
 											"key": "geometry",
 											"value": "<string>",
-											"description": "geoJSON providing the area to be classified",
+											"description": "undefined",
 											"type": "text"
 										},
 										{
 											"key": "name",
 											"value": "<string>",
-											"description": "Optional name of the classification.\n\nClassifications are uniquely identified by sequentialy generated dates (it's done that way so results can be accessed in exacly same way as any other indicator). This parameter allows to define a descriptive label for the classification.\n",
+											"description": "undefined",
 											"type": "text"
 										},
 										{
 											"key": "dateFrom",
 											"value": "<date>",
-											"description": "Beginning of the classification time period",
+											"description": "undefined",
 											"type": "text"
 										},
 										{
 											"key": "dateTo",
 											"value": "<date>",
-											"description": "Ending of the classification time period",
+											"description": "undefined",
 											"type": "text"
 										},
 										{
 											"key": "minCover",
 											"value": "0.95",
-											"description": "Minimum coverege of both train and target data for a given feature (`indicator x date`) to be used in the classification.\n",
+											"description": "undefined",
 											"type": "text"
 										},
 										{
 											"key": "maxFeatures",
 											"value": "60",
-											"description": "Maximum number of features used for the classification.\n\nBigger number generally increases classification accuracy but lower the number of features, the quicker classification is performed.\n\nFeatures are selected using the mutual information criterion.\n",
+											"description": "undefined",
 											"type": "text"
 										},
 										{
 											"key": "nTrees",
 											"value": "100",
-											"description": "Number of trees used by the random forest classification algorithm.",
+											"description": "undefined",
 											"type": "text"
 										},
 										{
 											"key": "minProb",
 											"value": "0.66",
-											"description": "Minimum probability to keep the predicted class in the output. Pixels with lower probability are assigned the `ambigous` class.",
+											"description": "undefined",
 											"type": "text"
 										},
 										{
 											"key": "indicators",
 											"value": "[\"blue\",\"green\",\"red\",\"nir\",\"swir\",\"ndvi\",\"ndmi\",\"ccc\",\"fapar\",\"fcover\",\"lai\",\"str\"]",
-											"description": "List of indicators (see the `/indicator` endpoint) used for the classifciation.",
+											"description": "undefined",
 											"type": "text"
 										}
 									]
@@ -5838,6 +6278,104 @@
 							],
 							"cookie": [],
 							"body": "{\n  \"user_id\": \"coala\",\n  \"date\": \"2000-01-01T00:00:00.000Z\",\n  \"name\": \"example\",\n  \"state\": \"finished\",\n  \"remarks\": null,\n  \"starttime\": \"2021-09-16T12:55:11.553Z\",\n  \"endtime\": \"2021-09-16T12:58:15.209Z\",\n  \"log\": \"INFO:2021-09-16 14:55:14,503: Reading reference data\\nINFO:2021-09-16 14:55:16,220: Projecting target geometry to indicator zoom levels (...)\\n\",\n  \"params\": {\n    \"nJobs\": 2,\n    \"dateFrom\": \"2018-04-01T00:00:00.000Z\",\n    \"dateTo\": \"2018-09-30T00:00:00.000Z\",\n    \"nTrees\": 100,\n    \"minProb\": 0.66,\n    \"maxFeatures\": 60,\n    \"minCover\": 0.95,\n    \"srcSrid\": 4326,\n    \"geometry\": \"{\\\"type\\\":\\\"Polygon\\\",\\\"coordinates\\\":[[[16.5673,48.2101],[16.5673,48.2391],[16.5893,48.2391],[16.5893,48.2101],[16.5673,48.2101]]]}\",\n    \"indicators\": [\n      \"blue\",\n      \"green\",\n      \"red\",\n      \"nir\",\n      \"swir\",\n      \"ndvi\",\n      \"ndmi\",\n      \"ccc\",\n      \"fapar\",\n      \"fcover\",\n      \"lai\",\n      \"str\"\n    ]\n  },\n  \"refdata\": [\n    {\n      \"x\": 16.6391140924664,\n      \"y\": 48.206487648352,\n      \"label\": \"Mais\"\n    },\n    {\n      \"x\": 16.6337805808201,\n      \"y\": 48.2059966592951,\n      \"label\": \"Mais\"\n    }\n  ]\n}"
+						},
+						{
+							"name": "Bad Request - required parameters are misssing",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"description": "Added as a part of security scheme: basic",
+										"key": "Authorization",
+										"value": "Basic <credentials>"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "srcSrid",
+											"value": "4326",
+											"description": "undefined",
+											"type": "text"
+										},
+										{
+											"key": "geometry",
+											"value": "<string>",
+											"description": "undefined",
+											"type": "text"
+										},
+										{
+											"key": "name",
+											"value": "<string>",
+											"description": "undefined",
+											"type": "text"
+										},
+										{
+											"key": "dateFrom",
+											"value": "<date>",
+											"description": "undefined",
+											"type": "text"
+										},
+										{
+											"key": "dateTo",
+											"value": "<date>",
+											"description": "undefined",
+											"type": "text"
+										},
+										{
+											"key": "minCover",
+											"value": "0.95",
+											"description": "undefined",
+											"type": "text"
+										},
+										{
+											"key": "maxFeatures",
+											"value": "60",
+											"description": "undefined",
+											"type": "text"
+										},
+										{
+											"key": "nTrees",
+											"value": "100",
+											"description": "undefined",
+											"type": "text"
+										},
+										{
+											"key": "minProb",
+											"value": "0.66",
+											"description": "undefined",
+											"type": "text"
+										},
+										{
+											"key": "indicators",
+											"value": "[\"blue\",\"green\",\"red\",\"nir\",\"swir\",\"ndvi\",\"ndmi\",\"ccc\",\"fapar\",\"fcover\",\"lai\",\"str\"]",
+											"description": "undefined",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{baseUrl}}/classification",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"classification"
+									]
+								}
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
 						}
 					]
 				},
@@ -6363,65 +6901,6 @@
 			},
 			"response": [
 				{
-					"name": "OK",
-					"originalRequest": {
-						"method": "GET",
-						"header": [
-							{
-								"description": "Added as a part of security scheme: basic",
-								"key": "Authorization",
-								"value": "Basic <credentials>"
-							}
-						],
-						"url": {
-							"raw": "{{baseUrl}}/wmts?indicator=<string>&date=<date>&period=14&dateFrom=<date>&dateTo=<date>&daily=<string>",
-							"host": [
-								"{{baseUrl}}"
-							],
-							"path": [
-								"wmts"
-							],
-							"query": [
-								{
-									"key": "indicator",
-									"value": "<string>"
-								},
-								{
-									"key": "date",
-									"value": "<date>"
-								},
-								{
-									"key": "period",
-									"value": "14"
-								},
-								{
-									"key": "dateFrom",
-									"value": "<date>"
-								},
-								{
-									"key": "dateTo",
-									"value": "<date>"
-								},
-								{
-									"key": "daily",
-									"value": "<string>"
-								}
-							]
-						}
-					},
-					"status": "OK",
-					"code": 200,
-					"_postman_previewlanguage": "xml",
-					"header": [
-						{
-							"key": "Content-Type",
-							"value": "application/xml"
-						}
-					],
-					"cookie": [],
-					"body": "officia veniam"
-				},
-				{
 					"name": "Access to a given indicator denied or no access rights to the whole endpoint.",
 					"originalRequest": {
 						"method": "GET",
@@ -6479,6 +6958,65 @@
 					],
 					"cookie": [],
 					"body": ""
+				},
+				{
+					"name": "OK",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"description": "Added as a part of security scheme: basic",
+								"key": "Authorization",
+								"value": "Basic <credentials>"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/wmts?indicator=<string>&date=<date>&period=14&dateFrom=<date>&dateTo=<date>&daily=<string>",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"wmts"
+							],
+							"query": [
+								{
+									"key": "indicator",
+									"value": "<string>"
+								},
+								{
+									"key": "date",
+									"value": "<date>"
+								},
+								{
+									"key": "period",
+									"value": "14"
+								},
+								{
+									"key": "dateFrom",
+									"value": "<date>"
+								},
+								{
+									"key": "dateTo",
+									"value": "<date>"
+								},
+								{
+									"key": "daily",
+									"value": "<string>"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "xml",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/xml"
+						}
+					],
+					"cookie": [],
+					"body": "incididunt voluptate"
 				}
 			]
 		},
@@ -6502,14 +7040,14 @@
 						{
 							"key": "srid",
 							"value": "<integer>",
-							"description": "Projection used by the XML file",
+							"description": "undefined",
 							"type": "text"
 						},
 						{
 							"key": "data",
-							"description": "A zip file containing a set of shapefile files or an eAMA XML file.",
-							"type": "file",
-							"src": []
+							"value": "<binary>",
+							"description": "undefined",
+							"type": "text"
 						}
 					]
 				},
@@ -6542,13 +7080,13 @@
 								{
 									"key": "srid",
 									"value": "<integer>",
-									"description": "Projection used by the XML file",
+									"description": "undefined",
 									"type": "text"
 								},
 								{
 									"key": "data",
 									"value": "<binary>",
-									"description": "A zip file containing a set of shapefile files or an eAMA XML file.",
+									"description": "undefined",
 									"type": "text"
 								}
 							]
@@ -6579,39 +7117,25 @@
 		}
 	],
 	"auth": {
-		"type": "bearer",
-		"bearer": [
+		"type": "basic",
+		"basic": [
 			{
-				"key": "token",
-				"value": "{{coalaToken}}",
+				"key": "username",
+				"value": "<Basic Auth Username>",
+				"type": "string"
+			},
+			{
+				"key": "password",
+				"value": "<Basic Auth Password>",
 				"type": "string"
 			}
 		]
 	},
-	"event": [
-		{
-			"listen": "prerequest",
-			"script": {
-				"type": "text/javascript",
-				"exec": [
-					""
-				]
-			}
-		},
-		{
-			"listen": "test",
-			"script": {
-				"type": "text/javascript",
-				"exec": [
-					""
-				]
-			}
-		}
-	],
 	"variable": [
 		{
 			"key": "baseUrl",
-			"value": "https://api.coalaproject.eu/api"
+			"value": "https://api.coalaproject.eu/api",
+			"type": "string"
 		}
 	]
 }
