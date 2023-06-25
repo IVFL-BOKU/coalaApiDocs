@@ -1,9 +1,8 @@
 {
 	"info": {
-		"_postman_id": "59ac06d8-10cb-46b9-ba43-7fcf7d439d04",
+		"_postman_id": "990bed48-fd11-4171-b452-cef87ee176c2",
 		"name": "COALA-API-Documentation",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "11578323"
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
@@ -152,7 +151,7 @@
 									"_postman_previewlanguage": "text",
 									"header": [],
 									"cookie": [],
-									"body": null
+									"body": ""
 								}
 							]
 						},
@@ -212,7 +211,7 @@
 									"_postman_previewlanguage": "text",
 									"header": [],
 									"cookie": [],
-									"body": null
+									"body": ""
 								},
 								{
 									"name": "No such region of interest",
@@ -246,7 +245,7 @@
 									"_postman_previewlanguage": "text",
 									"header": [],
 									"cookie": [],
-									"body": null
+									"body": ""
 								}
 							]
 						},
@@ -335,7 +334,7 @@
 									"_postman_previewlanguage": "text",
 									"header": [],
 									"cookie": [],
-									"body": null
+									"body": ""
 								},
 								{
 									"name": "Region of interest created",
@@ -383,7 +382,7 @@
 									"_postman_previewlanguage": "text",
 									"header": [],
 									"cookie": [],
-									"body": null
+									"body": ""
 								},
 								{
 									"name": "No such region of interest",
@@ -431,7 +430,7 @@
 									"_postman_previewlanguage": "text",
 									"header": [],
 									"cookie": [],
-									"body": null
+									"body": ""
 								}
 							]
 						},
@@ -520,7 +519,7 @@
 									"_postman_previewlanguage": "text",
 									"header": [],
 									"cookie": [],
-									"body": null
+									"body": ""
 								},
 								{
 									"name": "Region of interest created",
@@ -568,7 +567,7 @@
 									"_postman_previewlanguage": "text",
 									"header": [],
 									"cookie": [],
-									"body": null
+									"body": ""
 								},
 								{
 									"name": "No such region of interest",
@@ -616,7 +615,7 @@
 									"_postman_previewlanguage": "text",
 									"header": [],
 									"cookie": [],
-									"body": null
+									"body": ""
 								}
 							]
 						}
@@ -1163,7 +1162,7 @@
 							"_postman_previewlanguage": "text",
 							"header": [],
 							"cookie": [],
-							"body": null
+							"body": ""
 						}
 					]
 				}
@@ -1621,7 +1620,7 @@
 																	"_postman_previewlanguage": "text",
 																	"header": [],
 																	"cookie": [],
-																	"body": null
+																	"body": ""
 																}
 															]
 														}
@@ -1882,7 +1881,7 @@
 													"_postman_previewlanguage": "text",
 													"header": [],
 													"cookie": [],
-													"body": null
+													"body": ""
 												}
 											]
 										},
@@ -3098,7 +3097,7 @@
 											"_postman_previewlanguage": "text",
 											"header": [],
 											"cookie": [],
-											"body": null
+											"body": ""
 										}
 									]
 								}
@@ -3295,7 +3294,7 @@
 											"_postman_previewlanguage": "text",
 											"header": [],
 											"cookie": [],
-											"body": null
+											"body": ""
 										}
 									]
 								}
@@ -4592,7 +4591,7 @@
 											"_postman_previewlanguage": "text",
 											"header": [],
 											"cookie": [],
-											"body": null
+											"body": ""
 										}
 									]
 								}
@@ -4910,7 +4909,7 @@
 													"_postman_previewlanguage": "text",
 													"header": [],
 													"cookie": [],
-													"body": null
+													"body": ""
 												}
 											]
 										}
@@ -5753,7 +5752,7 @@
 									"_postman_previewlanguage": "text",
 									"header": [],
 									"cookie": [],
-									"body": null
+									"body": ""
 								}
 							]
 						},
@@ -6068,7 +6067,7 @@
 									"_postman_previewlanguage": "text",
 									"header": [],
 									"cookie": [],
-									"body": null
+									"body": ""
 								}
 							]
 						}
@@ -6366,7 +6365,7 @@
 							"_postman_previewlanguage": "text",
 							"header": [],
 							"cookie": [],
-							"body": null
+							"body": ""
 						}
 					]
 				},
@@ -6500,7 +6499,7 @@
 											"_postman_previewlanguage": "text",
 											"header": [],
 											"cookie": [],
-											"body": null
+											"body": ""
 										},
 										{
 											"name": "No such feature",
@@ -6535,7 +6534,7 @@
 											"_postman_previewlanguage": "text",
 											"header": [],
 											"cookie": [],
-											"body": null
+											"body": ""
 										}
 									]
 								},
@@ -6597,7 +6596,7 @@
 											"_postman_previewlanguage": "text",
 											"header": [],
 											"cookie": [],
-											"body": null
+											"body": ""
 										},
 										{
 											"name": "No such feature",
@@ -6632,7 +6631,7 @@
 											"_postman_previewlanguage": "text",
 											"header": [],
 											"cookie": [],
-											"body": null
+											"body": ""
 										}
 									]
 								},
@@ -6694,7 +6693,7 @@
 											"_postman_previewlanguage": "text",
 											"header": [],
 											"cookie": [],
-											"body": null
+											"body": ""
 										},
 										{
 											"name": "Bad request",
@@ -6729,7 +6728,7 @@
 											"_postman_previewlanguage": "text",
 											"header": [],
 											"cookie": [],
-											"body": null
+											"body": ""
 										},
 										{
 											"name": "No such feature",
@@ -6764,7 +6763,7 @@
 											"_postman_previewlanguage": "text",
 											"header": [],
 											"cookie": [],
-											"body": null
+											"body": ""
 										}
 									]
 								}
@@ -6900,7 +6899,7 @@
 									"_postman_previewlanguage": "text",
 									"header": [],
 									"cookie": [],
-									"body": null
+									"body": ""
 								}
 							]
 						},
@@ -6992,7 +6991,7 @@
 									"_postman_previewlanguage": "text",
 									"header": [],
 									"cookie": [],
-									"body": null
+									"body": ""
 								}
 							]
 						},
@@ -7159,7 +7158,7 @@
 											"_postman_previewlanguage": "text",
 											"header": [],
 											"cookie": [],
-											"body": null
+											"body": ""
 										},
 										{
 											"name": "No such feature",
@@ -7194,7 +7193,7 @@
 											"_postman_previewlanguage": "text",
 											"header": [],
 											"cookie": [],
-											"body": null
+											"body": ""
 										}
 									]
 								},
@@ -7256,7 +7255,7 @@
 											"_postman_previewlanguage": "text",
 											"header": [],
 											"cookie": [],
-											"body": null
+											"body": ""
 										},
 										{
 											"name": "No such feature",
@@ -7291,7 +7290,7 @@
 											"_postman_previewlanguage": "text",
 											"header": [],
 											"cookie": [],
-											"body": null
+											"body": ""
 										}
 									]
 								},
@@ -7353,7 +7352,7 @@
 											"_postman_previewlanguage": "text",
 											"header": [],
 											"cookie": [],
-											"body": null
+											"body": ""
 										},
 										{
 											"name": "Bad request",
@@ -7388,7 +7387,7 @@
 											"_postman_previewlanguage": "text",
 											"header": [],
 											"cookie": [],
-											"body": null
+											"body": ""
 										},
 										{
 											"name": "No such feature",
@@ -7423,7 +7422,7 @@
 											"_postman_previewlanguage": "text",
 											"header": [],
 											"cookie": [],
-											"body": null
+											"body": ""
 										}
 									]
 								}
@@ -7559,7 +7558,7 @@
 									"_postman_previewlanguage": "text",
 									"header": [],
 									"cookie": [],
-									"body": null
+									"body": ""
 								}
 							]
 						},
@@ -7651,7 +7650,7 @@
 									"_postman_previewlanguage": "text",
 									"header": [],
 									"cookie": [],
-									"body": null
+									"body": ""
 								}
 							]
 						},
@@ -7753,6 +7752,940 @@
 							]
 						}
 					]
+				}
+			]
+		},
+		{
+			"name": "Use-cases",
+			"item": [
+				{
+					"name": "ROI",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.coalaproject.eu/api/roi?token=6ca6988a12f5dceaf72ede6c07f12c94baf9b50497234bccc32099ab9c84cdf56a96246d8788e080",
+							"protocol": "https",
+							"host": [
+								"api",
+								"coalaproject",
+								"eu"
+							],
+							"path": [
+								"api",
+								"roi"
+							],
+							"query": [
+								{
+									"key": "token",
+									"value": "6ca6988a12f5dceaf72ede6c07f12c94baf9b50497234bccc32099ab9c84cdf56a96246d8788e080"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PUT update ROI",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\n        \"since\": null,\n        \"until\": null,\n        \"period\": \"365 days\",\n        \"cloudCovMax\": 30,\n        \"utms\": [\n            \"55HCA\",\n            \"55HDC\",\n            \"33UXP\",\n            \"33UVP\"\n        ],\n        \"indicators\": {\n            \"et\": {\n                \"daily\": true,\n                \"period\": \"50 days\"\n            },\n            \"lai\": {\n                \"daily\": true,\n                \"period\": \"50 days\"\n            },\n            \"ndvi\": {\n                \"daily\": true,\n                \"period\": \"50 days\"\n            },\n            \"nni\": {\n                \"daily\": false,\n                \"period\": null\n            }            ,\n            \"mzm\": {\n                \"daily\": false,\n                \"period\": null\n            }\n        }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.coalaproject.eu/api/roi/demoRoi?token=6ca6988a12f5dceaf72ede6c07f12c94baf9b50497234bccc32099ab9c84cdf56a96246d8788e080",
+							"protocol": "https",
+							"host": [
+								"api",
+								"coalaproject",
+								"eu"
+							],
+							"path": [
+								"api",
+								"roi",
+								"demoRoi"
+							],
+							"query": [
+								{
+									"key": "token",
+									"value": "6ca6988a12f5dceaf72ede6c07f12c94baf9b50497234bccc32099ab9c84cdf56a96246d8788e080"
+								},
+								{
+									"key": "test",
+									"value": "test",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "NDVI as raster (set for most recent, output in png format)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "https://api.coalaproject.eu/api/indicator/ndvi/rasterData?srcSrid=4326&srid=4326&minCover=1&format=image/png&colorMap=1&date=now&token=6ca6988a12f5dceaf72ede6c07f12c94baf9b50497234bccc32099ab9c84cdf56a96246d8788e080&geometry={ \"type\": \"MultiPolygon\", \"coordinates\": [ [ [ [ 146.036819740052692, -34.371579922914933 ], [ 146.042928273087199, -34.373860991110092 ], [ 146.045358803594723, -34.375037902153309 ], [ 146.046928458682828, -34.377365990743009 ], [ 146.047210835807022, -34.378856952593914 ], [ 146.043918229143344, -34.378913980976535 ], [ 146.043167300844942, -34.379156238728456 ], [ 146.034252707750568, -34.377969639194838 ], [ 146.034222297957001, -34.376273865678044 ], [ 146.036242759803201, -34.374056651420247 ], [ 146.036819740052692, -34.371579922914933 ] ] ] ] }",
+							"protocol": "https",
+							"host": [
+								"api",
+								"coalaproject",
+								"eu"
+							],
+							"path": [
+								"api",
+								"indicator",
+								"ndvi",
+								"rasterData"
+							],
+							"query": [
+								{
+									"key": "srcSrid",
+									"value": "4326",
+									"description": "An EPSG code of request's spatial parameters (like `geometry`), e.g. 4326 (WGS-84) or 3857 (Web Mercator).\n"
+								},
+								{
+									"key": "bufSize",
+									"value": "300",
+									"description": "Size (in meters) of the buffer around the requested geometry.\n\nNegative values cause bounding box of the buffered geometry to be taken (in such a case the geometry is buffered with the absolute value of the parameter value).\n",
+									"disabled": true
+								},
+								{
+									"key": "srid",
+									"value": "4326",
+									"description": "An EPSG code of returned spatial objects projection, e.g. 4326 (WGS-84) or 3857 (Web Mercator)\n\nIf not provided `srcSrid` parameter value is used and if `srcSrid` parameter isn't provided as well, a default value of `4326` is assumed.\n"
+								},
+								{
+									"key": "minCover",
+									"value": "1",
+									"description": "Minimum coverage provided by an acquisition to be included in the response.\n  \n0 means no coverage and 1 means full coverage only.\n  \nProviding a value will cause coverage statistics to be included in the response.\n\nDefault value varies between indicators. You can check it using the `/indciator` endpoint.\n"
+								},
+								{
+									"key": "format",
+									"value": "image/png"
+								},
+								{
+									"key": "colorMap",
+									"value": "1",
+									"description": "Determines if a color map should be used.\n  \n* `0` indicates no color map should be used. This value is automatically enforced when `rasterFormat` is other than `image/png`, `image/jpeg` or `image/tiff`.\n* `1` indicates a default color map for a given `indicatorId` should be used. Takes effect only when `scale` equals to `raw`.\n* `mapName` indicates name of the color map to be used. There are a few general-use color maps available: `viridis1`, `viridis2`, `plasma1`, `plasma2` (see [here](https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html#the-color-scales)), `bw` (black-white), `wb` (white-black) and `ndvi`. They are meant to work with values in `0-254` scale. If the indicator you are using is on a different scale, use `scale=grayscale` parameter to map it to `0-254`. The difference between `viridis1`/`viridis2` and `plasma1`/`plasma2` is the scale direction.\n* `postgisColorMapDef` explicitely provided color map. This allows you to apply any color map of your choice. It just has to follow the the format used by the Postgis [ST_ColorMap()](https://postgis.net/docs/RT_ST_ColorMap.html) function. Remember the map is applied to the already values transformed according to the `scale` request parameter.\n"
+								},
+								{
+									"key": "date",
+									"value": "now",
+									"description": "An alternative way of defining the time period."
+								},
+								{
+									"key": "dateFrom",
+									"value": "<date>",
+									"description": "Beginning of the queried time period.\n\nThe default value is `date - period`.\n",
+									"disabled": true
+								},
+								{
+									"key": "dateTo",
+									"value": "<date>",
+									"description": "End of the queried time period.\n\nThe default value is `date + period`.\n",
+									"disabled": true
+								},
+								{
+									"key": "period",
+									"value": "<integer>",
+									"description": "An alternative way of defining the time period. If `dateFrom` or `dateTo` aren't provided, their default values is `date - period` and `date + period`, respectively.\n\nDefault value is indicator-specific. You can check it using the `/indicator` endpoint.\n",
+									"disabled": true
+								},
+								{
+									"key": "rasterFormat",
+									"value": "image/png",
+									"description": "Returned raster data format.\n  \nIt doesn't determine the response format (this is determined by the `format` parameter) and is affected by the `encode` parameter.\n",
+									"disabled": true
+								},
+								{
+									"key": "encode",
+									"value": "raw",
+									"description": "Determines the way raster image data are encoded so they can be send as a part of a JSON response.\n",
+									"disabled": true
+								},
+								{
+									"key": "scale",
+									"value": "raw",
+									"description": "Determines the way raster values are scaled.\n  \n* raw - use values as they are stored in the database (e.g. 0-80 for LAI)\n* real - rescale values to indicator's phisical values range (e.g. 0-8 fro LAI)\n* stdfloat - standardize to mean 0 and standard deviation 1 within the scene\n* stdbyte - standardize to mean 127 and standard deviation 25 within the scene\n* stretch - transform in a way the minimum value within the scene equals 0 and maximum equals 254\n* grayscale - transform in a way minimum phisical value of the indicator corresponds to 0 and maximum to 254\n",
+									"disabled": true
+								},
+								{
+									"key": "token",
+									"value": "6ca6988a12f5dceaf72ede6c07f12c94baf9b50497234bccc32099ab9c84cdf56a96246d8788e080",
+									"description": "token"
+								},
+								{
+									"key": "geometry",
+									"value": "{ \"type\": \"MultiPolygon\", \"coordinates\": [ [ [ [ 146.036819740052692, -34.371579922914933 ], [ 146.042928273087199, -34.373860991110092 ], [ 146.045358803594723, -34.375037902153309 ], [ 146.046928458682828, -34.377365990743009 ], [ 146.047210835807022, -34.378856952593914 ], [ 146.043918229143344, -34.378913980976535 ], [ 146.043167300844942, -34.379156238728456 ], [ 146.034252707750568, -34.377969639194838 ], [ 146.034222297957001, -34.376273865678044 ], [ 146.036242759803201, -34.374056651420247 ], [ 146.036819740052692, -34.371579922914933 ] ] ] ] }"
+								}
+							]
+						},
+						"description": "Returns a raster image for a given indicator.\n\nThe image acquired at date closest to the `dateId` parameter within the queried period (see `dateFrom`, `dateTo` and `period` parameters) which passes the `minCover` condition is returned.\nIf there is no such image, 404 is returned.\n\nReturned data include encoded image, its envelope, actual aquisition, the coverage ratio and some basic pixel value statistics.\n\nData can be scalled and colored according to the `scale` and `colorMap` parameter values.\n"
+					},
+					"response": []
+				},
+				{
+					"name": "LAI as raster",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "https://api.coalaproject.eu/api/indicator/lai/rasterData?srcSrid=4326&srid=4326&minCover=1&format=image/png&colorMap=1&date=now&token=6ca6988a12f5dceaf72ede6c07f12c94baf9b50497234bccc32099ab9c84cdf56a96246d8788e080&geometry={ \"type\": \"MultiPolygon\", \"coordinates\": [ [ [ [ 146.036819740052692, -34.371579922914933 ], [ 146.042928273087199, -34.373860991110092 ], [ 146.045358803594723, -34.375037902153309 ], [ 146.046928458682828, -34.377365990743009 ], [ 146.047210835807022, -34.378856952593914 ], [ 146.043918229143344, -34.378913980976535 ], [ 146.043167300844942, -34.379156238728456 ], [ 146.034252707750568, -34.377969639194838 ], [ 146.034222297957001, -34.376273865678044 ], [ 146.036242759803201, -34.374056651420247 ], [ 146.036819740052692, -34.371579922914933 ] ] ] ] }",
+							"protocol": "https",
+							"host": [
+								"api",
+								"coalaproject",
+								"eu"
+							],
+							"path": [
+								"api",
+								"indicator",
+								"lai",
+								"rasterData"
+							],
+							"query": [
+								{
+									"key": "srcSrid",
+									"value": "4326",
+									"description": "An EPSG code of request's spatial parameters (like `geometry`), e.g. 4326 (WGS-84) or 3857 (Web Mercator).\n"
+								},
+								{
+									"key": "bufSize",
+									"value": "300",
+									"description": "Size (in meters) of the buffer around the requested geometry.\n\nNegative values cause bounding box of the buffered geometry to be taken (in such a case the geometry is buffered with the absolute value of the parameter value).\n",
+									"disabled": true
+								},
+								{
+									"key": "srid",
+									"value": "4326",
+									"description": "An EPSG code of returned spatial objects projection, e.g. 4326 (WGS-84) or 3857 (Web Mercator)\n\nIf not provided `srcSrid` parameter value is used and if `srcSrid` parameter isn't provided as well, a default value of `4326` is assumed.\n"
+								},
+								{
+									"key": "minCover",
+									"value": "1",
+									"description": "Minimum coverage provided by an acquisition to be included in the response.\n  \n0 means no coverage and 1 means full coverage only.\n  \nProviding a value will cause coverage statistics to be included in the response.\n\nDefault value varies between indicators. You can check it using the `/indciator` endpoint.\n"
+								},
+								{
+									"key": "format",
+									"value": "image/png"
+								},
+								{
+									"key": "colorMap",
+									"value": "1",
+									"description": "Determines if a color map should be used.\n  \n* `0` indicates no color map should be used. This value is automatically enforced when `rasterFormat` is other than `image/png`, `image/jpeg` or `image/tiff`.\n* `1` indicates a default color map for a given `indicatorId` should be used. Takes effect only when `scale` equals to `raw`.\n* `mapName` indicates name of the color map to be used. There are a few general-use color maps available: `viridis1`, `viridis2`, `plasma1`, `plasma2` (see [here](https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html#the-color-scales)), `bw` (black-white), `wb` (white-black) and `ndvi`. They are meant to work with values in `0-254` scale. If the indicator you are using is on a different scale, use `scale=grayscale` parameter to map it to `0-254`. The difference between `viridis1`/`viridis2` and `plasma1`/`plasma2` is the scale direction.\n* `postgisColorMapDef` explicitely provided color map. This allows you to apply any color map of your choice. It just has to follow the the format used by the Postgis [ST_ColorMap()](https://postgis.net/docs/RT_ST_ColorMap.html) function. Remember the map is applied to the already values transformed according to the `scale` request parameter.\n"
+								},
+								{
+									"key": "date",
+									"value": "now",
+									"description": "An alternative way of defining the time period."
+								},
+								{
+									"key": "dateFrom",
+									"value": "<date>",
+									"description": "Beginning of the queried time period.\n\nThe default value is `date - period`.\n",
+									"disabled": true
+								},
+								{
+									"key": "dateTo",
+									"value": "<date>",
+									"description": "End of the queried time period.\n\nThe default value is `date + period`.\n",
+									"disabled": true
+								},
+								{
+									"key": "period",
+									"value": "<integer>",
+									"description": "An alternative way of defining the time period. If `dateFrom` or `dateTo` aren't provided, their default values is `date - period` and `date + period`, respectively.\n\nDefault value is indicator-specific. You can check it using the `/indicator` endpoint.\n",
+									"disabled": true
+								},
+								{
+									"key": "rasterFormat",
+									"value": "image/png",
+									"description": "Returned raster data format.\n  \nIt doesn't determine the response format (this is determined by the `format` parameter) and is affected by the `encode` parameter.\n",
+									"disabled": true
+								},
+								{
+									"key": "encode",
+									"value": "raw",
+									"description": "Determines the way raster image data are encoded so they can be send as a part of a JSON response.\n",
+									"disabled": true
+								},
+								{
+									"key": "scale",
+									"value": "raw",
+									"description": "Determines the way raster values are scaled.\n  \n* raw - use values as they are stored in the database (e.g. 0-80 for LAI)\n* real - rescale values to indicator's phisical values range (e.g. 0-8 fro LAI)\n* stdfloat - standardize to mean 0 and standard deviation 1 within the scene\n* stdbyte - standardize to mean 127 and standard deviation 25 within the scene\n* stretch - transform in a way the minimum value within the scene equals 0 and maximum equals 254\n* grayscale - transform in a way minimum phisical value of the indicator corresponds to 0 and maximum to 254\n",
+									"disabled": true
+								},
+								{
+									"key": "token",
+									"value": "6ca6988a12f5dceaf72ede6c07f12c94baf9b50497234bccc32099ab9c84cdf56a96246d8788e080",
+									"description": "token"
+								},
+								{
+									"key": "geometry",
+									"value": "{ \"type\": \"MultiPolygon\", \"coordinates\": [ [ [ [ 146.036819740052692, -34.371579922914933 ], [ 146.042928273087199, -34.373860991110092 ], [ 146.045358803594723, -34.375037902153309 ], [ 146.046928458682828, -34.377365990743009 ], [ 146.047210835807022, -34.378856952593914 ], [ 146.043918229143344, -34.378913980976535 ], [ 146.043167300844942, -34.379156238728456 ], [ 146.034252707750568, -34.377969639194838 ], [ 146.034222297957001, -34.376273865678044 ], [ 146.036242759803201, -34.374056651420247 ], [ 146.036819740052692, -34.371579922914933 ] ] ] ] }"
+								}
+							]
+						},
+						"description": "Returns a raster image for a given indicator.\n\nThe image acquired at date closest to the `dateId` parameter within the queried period (see `dateFrom`, `dateTo` and `period` parameters) which passes the `minCover` condition is returned.\nIf there is no such image, 404 is returned.\n\nReturned data include encoded image, its envelope, actual aquisition, the coverage ratio and some basic pixel value statistics.\n\nData can be scalled and colored according to the `scale` and `colorMap` parameter values.\n"
+					},
+					"response": []
+				},
+				{
+					"name": "LAI time series (POINT)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "https://api.coalaproject.eu/api/indicator/et/timeseries?geometry={ \"type\": \"Point\", \"coordinates\": [146.036819740052692, -34.371579922914933 ] }&srcSrid=4326&buffer=0&scale=real&dateFrom=2022-11-01&dateTo=now&daily=1&format=application/json&token=6ca6988a12f5dceaf72ede6c07f12c94baf9b50497234bccc32099ab9c84cdf56a96246d8788e080",
+							"protocol": "https",
+							"host": [
+								"api",
+								"coalaproject",
+								"eu"
+							],
+							"path": [
+								"api",
+								"indicator",
+								"et",
+								"timeseries"
+							],
+							"query": [
+								{
+									"key": "geometry",
+									"value": "{ \"type\": \"Point\", \"coordinates\": [146.036819740052692, -34.371579922914933 ] }"
+								},
+								{
+									"key": "srcSrid",
+									"value": "4326",
+									"description": "An EPSG code of request's spatial parameters (like `geometry`), e.g. 4326 (WGS-84) or 3857 (Web Mercator).\n"
+								},
+								{
+									"key": "buffer",
+									"value": "0",
+									"description": "A buffer size (in meters) to be applied to the `geometry`.\n  \nUsefeul when `geometry` is a point or to assure returned raster data contains also pixels which centroids don't intersect th `geometry`.\n\nWhen negative number is provided, the final `geometry` will be a bounding box of original `geometry` with a positive buffer value applied.\n"
+								},
+								{
+									"key": "z",
+									"value": "14",
+									"description": "Raster data zoom level.\n  \nThe raster piramids level to be used to fetch the data from - see [here](https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames#Resolution_and_Scale) for details.\n  \nRange of available values vary between indicators. You can check it using the `/indicator` endpoint.\n\nThe default value is the maximum value available for a given indicator.\n",
+									"disabled": true
+								},
+								{
+									"key": "scale",
+									"value": "real",
+									"description": "Determines the way values are scaled.\n\n* raw - use values as they are stored in the database (e.g. 0-80 for LAI)\n* real - rescale values to indicator's phisical values range (e.g. 0-8 fro LAI)\n* stdfloat - standardize to mean 0 and standard deviation 1 within the scene\n* stdbyte - standardize to mean 127 and standard deviation 25 within the scene\n*  stretch - transform in a way theminimum value within the scene equals 0 and maximum equals 254\n* grayscale - transform in a way minimum phisical value of the indicator corresponds to 0 and maximum to 254\n"
+								},
+								{
+									"key": "dateFrom",
+									"value": "2022-11-01",
+									"description": "Beginning of the queried time period.\n\nThe default value is `date - period`.\n"
+								},
+								{
+									"key": "dateTo",
+									"value": "now",
+									"description": "End of the queried time period.\n\nThe default value is `date + period`.\n"
+								},
+								{
+									"key": "daily",
+									"value": "1"
+								},
+								{
+									"key": "date",
+									"value": "<date>",
+									"description": "An alternative way of defining the time period. If `dateFrom` or `dateTo` aren't provided, their default values is `date - period` and `date + period`, respectively.\n\nA value of `now` indicates the current date.\n\nA default value is the current date.\n",
+									"disabled": true
+								},
+								{
+									"key": "period",
+									"value": "<integer>",
+									"description": "An alternative way of defining the time period. If `dateFrom` or `dateTo` aren't provided, their default values is `date - period` and `date + period`, respectively.\n\nDefault value is indicator-specific. You can check it using the `/indicator` endpoint.\n",
+									"disabled": true
+								},
+								{
+									"key": "minCover",
+									"value": "<float>",
+									"description": "Minimum coverage provided by an acquisition to be included in the response.\n  \n0 means no coverage and 1 means full coverage only.\n  \nProviding a value will cause coverage statistics to be included in the response.\n\nDefault value varies between indicators. You can check it using the `/indciator` endpoint.\n",
+									"disabled": true
+								},
+								{
+									"key": "srid",
+									"value": "<integer>",
+									"description": "An EPSG code of returned spatial objects projection, e.g. 4326 (WGS-84) or 3857 (Web Mercator)\n\nIf not provided `srcSrid` parameter value is used and if `srcSrid` parameter isn't provided as well, a default value of `4326` is assumed.\n",
+									"disabled": true
+								},
+								{
+									"key": "format",
+									"value": "application/json",
+									"description": "Requested return format."
+								},
+								{
+									"key": "position",
+									"value": "center",
+									"description": "The position within a pixel being used as a pixel's vector representation.\n\n* `corner` indicates upper-left corner\n* `center` indicates center\n* `polygon` indicates a polygon covering whole pixel area\n",
+									"disabled": true
+								},
+								{
+									"key": "token",
+									"value": "6ca6988a12f5dceaf72ede6c07f12c94baf9b50497234bccc32099ab9c84cdf56a96246d8788e080"
+								},
+								{
+									"key": "encode",
+									"value": "stats",
+									"disabled": true
+								}
+							]
+						},
+						"description": "Returns a timeseries of a given indicator value for a given area and time period."
+					},
+					"response": []
+				},
+				{
+					"name": "ET as raster",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "https://api.coalaproject.eu/api/indicator/et/rasterData?geometry={ \"type\": \"Point\", \"coordinates\": [146.036819740052692, -34.371579922914933 ] }&srcSrid=4326&buffer=500&dateFrom=2023-01-01&dateTo=now&format=image/png&token=6ca6988a12f5dceaf72ede6c07f12c94baf9b50497234bccc32099ab9c84cdf56a96246d8788e080&cropHeight=0.5&colorMap=1",
+							"protocol": "https",
+							"host": [
+								"api",
+								"coalaproject",
+								"eu"
+							],
+							"path": [
+								"api",
+								"indicator",
+								"et",
+								"rasterData"
+							],
+							"query": [
+								{
+									"key": "geometry",
+									"value": "{ \"type\": \"Point\", \"coordinates\": [146.036819740052692, -34.371579922914933 ] }"
+								},
+								{
+									"key": "srcSrid",
+									"value": "4326",
+									"description": "An EPSG code of request's spatial parameters (like `geometry`), e.g. 4326 (WGS-84) or 3857 (Web Mercator).\n"
+								},
+								{
+									"key": "buffer",
+									"value": "500",
+									"description": "A buffer size (in meters) to be applied to the `geometry`.\n  \nUsefeul when `geometry` is a point or to assure returned raster data contains also pixels which centroids don't intersect th `geometry`.\n\nWhen negative number is provided, the final `geometry` will be a bounding box of original `geometry` with a positive buffer value applied.\n"
+								},
+								{
+									"key": "z",
+									"value": "14",
+									"description": "Raster data zoom level.\n  \nThe raster piramids level to be used to fetch the data from - see [here](https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames#Resolution_and_Scale) for details.\n  \nRange of available values vary between indicators. You can check it using the `/indicator` endpoint.\n\nThe default value is the maximum value available for a given indicator.\n",
+									"disabled": true
+								},
+								{
+									"key": "scale",
+									"value": "raw",
+									"description": "Determines the way values are scaled.\n\n* raw - use values as they are stored in the database (e.g. 0-80 for LAI)\n* real - rescale values to indicator's phisical values range (e.g. 0-8 fro LAI)\n* stdfloat - standardize to mean 0 and standard deviation 1 within the scene\n* stdbyte - standardize to mean 127 and standard deviation 25 within the scene\n*  stretch - transform in a way theminimum value within the scene equals 0 and maximum equals 254\n* grayscale - transform in a way minimum phisical value of the indicator corresponds to 0 and maximum to 254\n",
+									"disabled": true
+								},
+								{
+									"key": "dateFrom",
+									"value": "2023-01-01",
+									"description": "Beginning of the queried time period.\n\nThe default value is `date - period`.\n"
+								},
+								{
+									"key": "dateTo",
+									"value": "now",
+									"description": "End of the queried time period.\n\nThe default value is `date + period`.\n"
+								},
+								{
+									"key": "date",
+									"value": "<date>",
+									"description": "An alternative way of defining the time period. If `dateFrom` or `dateTo` aren't provided, their default values is `date - period` and `date + period`, respectively.\n\nA value of `now` indicates the current date.\n\nA default value is the current date.\n",
+									"disabled": true
+								},
+								{
+									"key": "period",
+									"value": "<integer>",
+									"description": "An alternative way of defining the time period. If `dateFrom` or `dateTo` aren't provided, their default values is `date - period` and `date + period`, respectively.\n\nDefault value is indicator-specific. You can check it using the `/indicator` endpoint.\n",
+									"disabled": true
+								},
+								{
+									"key": "minCover",
+									"value": "0",
+									"description": "Minimum coverage provided by an acquisition to be included in the response.\n  \n0 means no coverage and 1 means full coverage only.\n  \nProviding a value will cause coverage statistics to be included in the response.\n\nDefault value varies between indicators. You can check it using the `/indciator` endpoint.\n",
+									"disabled": true
+								},
+								{
+									"key": "srid",
+									"value": "<integer>",
+									"description": "An EPSG code of returned spatial objects projection, e.g. 4326 (WGS-84) or 3857 (Web Mercator)\n\nIf not provided `srcSrid` parameter value is used and if `srcSrid` parameter isn't provided as well, a default value of `4326` is assumed.\n",
+									"disabled": true
+								},
+								{
+									"key": "format",
+									"value": "image/png",
+									"description": "Requested return format."
+								},
+								{
+									"key": "position",
+									"value": "center",
+									"description": "The position within a pixel being used as a pixel's vector representation.\n\n* `corner` indicates upper-left corner\n* `center` indicates center\n* `polygon` indicates a polygon covering whole pixel area\n",
+									"disabled": true
+								},
+								{
+									"key": "token",
+									"value": "6ca6988a12f5dceaf72ede6c07f12c94baf9b50497234bccc32099ab9c84cdf56a96246d8788e080"
+								},
+								{
+									"key": "encode",
+									"value": "stats",
+									"disabled": true
+								},
+								{
+									"key": "windMeasureHeight",
+									"value": "2",
+									"disabled": true
+								},
+								{
+									"key": "cropHeight",
+									"value": "0.5"
+								},
+								{
+									"key": "colorMap",
+									"value": "1"
+								}
+							]
+						},
+						"description": "Returns a timeseries of a given indicator value for a given area and time period."
+					},
+					"response": []
+				},
+				{
+					"name": "ET time series",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "https://api.coalaproject.eu/api/indicator/et/timeseries?geometry={ \"type\": \"Point\", \"coordinates\": [146.036819740052692, -34.371579922914933 ] }&srcSrid=4326&buffer=0&scale=real&dateFrom=2022-11-01&dateTo=now&format=application/json&token=6ca6988a12f5dceaf72ede6c07f12c94baf9b50497234bccc32099ab9c84cdf56a96246d8788e080&encode=stats&cropHeight=0.5",
+							"protocol": "https",
+							"host": [
+								"api",
+								"coalaproject",
+								"eu"
+							],
+							"path": [
+								"api",
+								"indicator",
+								"et",
+								"timeseries"
+							],
+							"query": [
+								{
+									"key": "geometry",
+									"value": "{ \"type\": \"Point\", \"coordinates\": [146.036819740052692, -34.371579922914933 ] }"
+								},
+								{
+									"key": "srcSrid",
+									"value": "4326",
+									"description": "An EPSG code of request's spatial parameters (like `geometry`), e.g. 4326 (WGS-84) or 3857 (Web Mercator).\n"
+								},
+								{
+									"key": "buffer",
+									"value": "0",
+									"description": "A buffer size (in meters) to be applied to the `geometry`.\n  \nUsefeul when `geometry` is a point or to assure returned raster data contains also pixels which centroids don't intersect th `geometry`.\n\nWhen negative number is provided, the final `geometry` will be a bounding box of original `geometry` with a positive buffer value applied.\n"
+								},
+								{
+									"key": "z",
+									"value": "14",
+									"description": "Raster data zoom level.\n  \nThe raster piramids level to be used to fetch the data from - see [here](https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames#Resolution_and_Scale) for details.\n  \nRange of available values vary between indicators. You can check it using the `/indicator` endpoint.\n\nThe default value is the maximum value available for a given indicator.\n",
+									"disabled": true
+								},
+								{
+									"key": "scale",
+									"value": "real",
+									"description": "Determines the way values are scaled.\n\n* raw - use values as they are stored in the database (e.g. 0-80 for LAI)\n* real - rescale values to indicator's phisical values range (e.g. 0-8 fro LAI)\n* stdfloat - standardize to mean 0 and standard deviation 1 within the scene\n* stdbyte - standardize to mean 127 and standard deviation 25 within the scene\n*  stretch - transform in a way theminimum value within the scene equals 0 and maximum equals 254\n* grayscale - transform in a way minimum phisical value of the indicator corresponds to 0 and maximum to 254\n"
+								},
+								{
+									"key": "dateFrom",
+									"value": "2022-11-01",
+									"description": "Beginning of the queried time period.\n\nThe default value is `date - period`.\n"
+								},
+								{
+									"key": "dateTo",
+									"value": "now",
+									"description": "End of the queried time period.\n\nThe default value is `date + period`.\n"
+								},
+								{
+									"key": "date",
+									"value": "<date>",
+									"description": "An alternative way of defining the time period. If `dateFrom` or `dateTo` aren't provided, their default values is `date - period` and `date + period`, respectively.\n\nA value of `now` indicates the current date.\n\nA default value is the current date.\n",
+									"disabled": true
+								},
+								{
+									"key": "period",
+									"value": "<integer>",
+									"description": "An alternative way of defining the time period. If `dateFrom` or `dateTo` aren't provided, their default values is `date - period` and `date + period`, respectively.\n\nDefault value is indicator-specific. You can check it using the `/indicator` endpoint.\n",
+									"disabled": true
+								},
+								{
+									"key": "minCover",
+									"value": "<float>",
+									"description": "Minimum coverage provided by an acquisition to be included in the response.\n  \n0 means no coverage and 1 means full coverage only.\n  \nProviding a value will cause coverage statistics to be included in the response.\n\nDefault value varies between indicators. You can check it using the `/indciator` endpoint.\n",
+									"disabled": true
+								},
+								{
+									"key": "srid",
+									"value": "<integer>",
+									"description": "An EPSG code of returned spatial objects projection, e.g. 4326 (WGS-84) or 3857 (Web Mercator)\n\nIf not provided `srcSrid` parameter value is used and if `srcSrid` parameter isn't provided as well, a default value of `4326` is assumed.\n",
+									"disabled": true
+								},
+								{
+									"key": "format",
+									"value": "application/json",
+									"description": "Requested return format."
+								},
+								{
+									"key": "position",
+									"value": "center",
+									"description": "The position within a pixel being used as a pixel's vector representation.\n\n* `corner` indicates upper-left corner\n* `center` indicates center\n* `polygon` indicates a polygon covering whole pixel area\n",
+									"disabled": true
+								},
+								{
+									"key": "token",
+									"value": "6ca6988a12f5dceaf72ede6c07f12c94baf9b50497234bccc32099ab9c84cdf56a96246d8788e080"
+								},
+								{
+									"key": "encode",
+									"value": "stats"
+								},
+								{
+									"key": "windMeasureHeight",
+									"value": "2",
+									"disabled": true
+								},
+								{
+									"key": "cropHeight",
+									"value": "0.5"
+								}
+							]
+						},
+						"description": "Returns a timeseries of a given indicator value for a given area and time period."
+					},
+					"response": []
+				},
+				{
+					"name": "NNI",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.coalaproject.eu/api/indicator/nni/rasterData?geometry={ \"type\": \"MultiPolygon\", \"coordinates\": [ [ [ [ 146.036819740052692, -34.371579922914933 ], [ 146.042928273087199, -34.373860991110092 ], [ 146.045358803594723, -34.375037902153309 ], [ 146.046928458682828, -34.377365990743009 ], [ 146.047210835807022, -34.378856952593914 ], [ 146.043918229143344, -34.378913980976535 ], [ 146.043167300844942, -34.379156238728456 ], [ 146.034252707750568, -34.377969639194838 ], [ 146.034222297957001, -34.376273865678044 ], [ 146.036242759803201, -34.374056651420247 ], [ 146.036819740052692, -34.371579922914933 ] ] ] ] }&srcSrid=4326&dateFrom=2022-11-01&dateTo=2023-03-31&daily=0&minCover=1&scale=raw&format=image/png&colorMap=0&debug=&step=7&m1=38.56&b1=56.707&a2=5.35&m2=0.443&a3=40&b3=-39&andvi=1.5&bndvi=0.2&token=6ca6988a12f5dceaf72ede6c07f12c94baf9b50497234bccc32099ab9c84cdf56a96246d8788e080",
+							"protocol": "https",
+							"host": [
+								"api",
+								"coalaproject",
+								"eu"
+							],
+							"path": [
+								"api",
+								"indicator",
+								"nni",
+								"rasterData"
+							],
+							"query": [
+								{
+									"key": "geometry",
+									"value": "{ \"type\": \"MultiPolygon\", \"coordinates\": [ [ [ [ 146.036819740052692, -34.371579922914933 ], [ 146.042928273087199, -34.373860991110092 ], [ 146.045358803594723, -34.375037902153309 ], [ 146.046928458682828, -34.377365990743009 ], [ 146.047210835807022, -34.378856952593914 ], [ 146.043918229143344, -34.378913980976535 ], [ 146.043167300844942, -34.379156238728456 ], [ 146.034252707750568, -34.377969639194838 ], [ 146.034222297957001, -34.376273865678044 ], [ 146.036242759803201, -34.374056651420247 ], [ 146.036819740052692, -34.371579922914933 ] ] ] ] }",
+									"description": "GeoJSON geometry as in example"
+								},
+								{
+									"key": "srcSrid",
+									"value": "4326",
+									"description": "An EPSG code of request's spatial parameters (like geometry), e.g. 4326 (WGS-84) or 3857 (Web Mercator)."
+								},
+								{
+									"key": "dateFrom",
+									"value": "2022-11-01"
+								},
+								{
+									"key": "dateTo",
+									"value": "2023-03-31"
+								},
+								{
+									"key": "daily",
+									"value": "0",
+									"description": "-If not present or with the 0 value, data is gathered from actual acquistions.\n-If daily=1, interpolated daily data is used instead. This assures data exists for each day in the requested time period. Daily data are generated on the fly and cached. It means if you request data outside of cache, generating them will take (a lot of) time."
+								},
+								{
+									"key": "minCover",
+									"value": "1",
+									"description": "-Minimum coverage provided by an acquisition to be included in the response.\n-0 means no coverage and 1 means full coverage only.\n-Providing a value will cause coverage statistics to be included in the response.\n-Default value varies between indicators. You can check it using the /indciator endpoint."
+								},
+								{
+									"key": "scale",
+									"value": "raw",
+									"description": "- raw - use values as they are stored in the database (e.g. 0-80 for LAI)\n- real - rescale values to indicator's phisical values range (e.g. 0-8 fro LAI)\n- stdfloat - standardize to mean 0 and standard deviation 1 within the scene\n- stdbyte - standardize to mean 127 and standard deviation 25 within the scene\n- stretch - transform in a way the minimum value within the scene equals 0 and maximum equals 254\n- grayscale - transform in a way minimum phisical value of the indicator corresponds to 0 and maximum to 254"
+								},
+								{
+									"key": "format",
+									"value": "image/png",
+									"description": "Available values : image/png, image/jpeg, image/tiff, application/json, application/geo+json, application/vnd.geo+json"
+								},
+								{
+									"key": "colorMap",
+									"value": "0",
+									"description": "0 - no color map\n1 - indicates a default color map for a given indicatorId should be used. Takes effect only when scale equals to raw."
+								},
+								{
+									"key": "encode",
+									"value": null,
+									"description": "- raw - means raster data will be provided as they are. This value is set automatically for image/* reponse formats (when format equals to image/png, image/jpeg or image/tiff) and is invalid for other response formats.\n- base64 and hex - means raster data will be base64 or hex encoded. This settings are valid only when format equals to application/json and rasterFormat is one of image/png, image/jpeg or image/tiff.\n- values - causes pixes values to be converted into a vector representation. If the format indicates geoJSON response, every pixel will be turned into a geoJSON feature and for application/json response format pixels will be represented by a collection of objects providing pixel position and value. The way pixel position is represented is determined by the position parameter.\n- stats - causes raster data to be skipped and only summary statistics (valid pixel count, requested area coverage, min, max, mean value, standard deviation) to be returned.",
+									"disabled": true
+								},
+								{
+									"key": "debug",
+									"value": "",
+									"description": "- mtci/ndvi/et - ET0 and interpolated MTCI/NDVI; \n- mtci2 - nominator of the NNI formula; \n- biomass - cumulative biomass (B from the NNI formula); \n- biomass2 - denominator of the NNI formula."
+								},
+								{
+									"key": "step",
+									"value": "7",
+									"description": "interval of the output data; e.g. \n- 1 means provide daily data series and 7 a weekly data series (dates are computed from the DATE_TO; default is 7) "
+								},
+								{
+									"key": "m1",
+									"value": "38.56"
+								},
+								{
+									"key": "b1",
+									"value": "56.707"
+								},
+								{
+									"key": "a2",
+									"value": "5.35"
+								},
+								{
+									"key": "m2",
+									"value": "0.443"
+								},
+								{
+									"key": "a3",
+									"value": "40"
+								},
+								{
+									"key": "b3",
+									"value": "-39"
+								},
+								{
+									"key": "andvi",
+									"value": "1.5"
+								},
+								{
+									"key": "bndvi",
+									"value": "0.2"
+								},
+								{
+									"key": "token",
+									"value": "6ca6988a12f5dceaf72ede6c07f12c94baf9b50497234bccc32099ab9c84cdf56a96246d8788e080"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "MZM",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.coalaproject.eu/api/indicator/mzm/rasterData?geometry={ \"type\": \"MultiPolygon\", \"coordinates\": [ [ [ [ 146.036819740052692, -34.371579922914933 ], [ 146.042928273087199, -34.373860991110092 ], [ 146.045358803594723, -34.375037902153309 ], [ 146.046928458682828, -34.377365990743009 ], [ 146.047210835807022, -34.378856952593914 ], [ 146.043918229143344, -34.378913980976535 ], [ 146.043167300844942, -34.379156238728456 ], [ 146.034252707750568, -34.377969639194838 ], [ 146.034222297957001, -34.376273865678044 ], [ 146.036242759803201, -34.374056651420247 ], [ 146.036819740052692, -34.371579922914933 ] ] ] ] }&srcSrid=4326&dateFrom=2023-01-01&dateTo=2023-02-28&daily&minCover=0.8&scale=&format=image/tiff&srid=4326&token=6ca6988a12f5dceaf72ede6c07f12c94baf9b50497234bccc32099ab9c84cdf56a96246d8788e080",
+							"protocol": "https",
+							"host": [
+								"api",
+								"coalaproject",
+								"eu"
+							],
+							"path": [
+								"api",
+								"indicator",
+								"mzm",
+								"rasterData"
+							],
+							"query": [
+								{
+									"key": "geometry",
+									"value": "{ \"type\": \"MultiPolygon\", \"coordinates\": [ [ [ [ 146.036819740052692, -34.371579922914933 ], [ 146.042928273087199, -34.373860991110092 ], [ 146.045358803594723, -34.375037902153309 ], [ 146.046928458682828, -34.377365990743009 ], [ 146.047210835807022, -34.378856952593914 ], [ 146.043918229143344, -34.378913980976535 ], [ 146.043167300844942, -34.379156238728456 ], [ 146.034252707750568, -34.377969639194838 ], [ 146.034222297957001, -34.376273865678044 ], [ 146.036242759803201, -34.374056651420247 ], [ 146.036819740052692, -34.371579922914933 ] ] ] ] }",
+									"description": "GeoJSON"
+								},
+								{
+									"key": "srcSrid",
+									"value": "4326",
+									"description": "An EPSG code of request's spatial parameters (like geometry), e.g. 4326 (WGS-84) or 3857 (Web Mercator).\n- applied on the geometry"
+								},
+								{
+									"key": "dateFrom",
+									"value": "2023-01-01"
+								},
+								{
+									"key": "dateTo",
+									"value": "2023-02-28"
+								},
+								{
+									"key": "daily",
+									"value": null,
+									"description": "-If not present or with the 0 value, data is gathered from actual acquistions.\n-If daily=1, interpolated daily data is used instead. This assures data exists for each day in the requested time period. Daily data are generated on the fly and cached. It means if you request data outside of cache, generating them will take (a lot of) time."
+								},
+								{
+									"key": "minCover",
+									"value": "0.8",
+									"description": "-Minimum coverage provided by an acquisition to be included in the response.\n-0 means no coverage and 1 means full coverage only.\n-Providing a value will cause coverage statistics to be included in the response.\n-Default value varies between indicators. You can check it using the /indciator endpoint."
+								},
+								{
+									"key": "scale",
+									"value": "",
+									"description": "- raw - use values as they are stored in the database (e.g. 0-80 for LAI)\n- real - rescale values to indicator's phisical values range (e.g. 0-8 fro LAI)\n- stdfloat - standardize to mean 0 and standard deviation 1 within the scene\n- stdbyte - standardize to mean 127 and standard deviation 25 within the scene\n- stretch - transform in a way the minimum value within the scene equals 0 and maximum equals 254\n- grayscale - transform in a way minimum phisical value of the indicator corresponds to 0 and maximum to 254"
+								},
+								{
+									"key": "format",
+									"value": "image/tiff",
+									"description": "Available values : image/png, image/jpeg, image/tiff, application/json, application/geo+json, application/vnd.geo+json"
+								},
+								{
+									"key": "colorMap",
+									"value": null,
+									"description": "0 - no color map\n1 - indicates a default color map for a given indicatorId should be used. Takes effect only when scale equals to raw.",
+									"disabled": true
+								},
+								{
+									"key": "encode",
+									"value": null,
+									"description": "- raw - means raster data will be provided as they are. This value is set automatically for image/* reponse formats (when format equals to image/png, image/jpeg or image/tiff) and is invalid for other response formats.\n- base64 and hex - means raster data will be base64 or hex encoded. This settings are valid only when format equals to application/json and rasterFormat is one of image/png, image/jpeg or image/tiff.\n- values - causes pixes values to be converted into a vector representation. If the format indicates geoJSON response, every pixel will be turned into a geoJSON feature and for application/json response format pixels will be represented by a collection of objects providing pixel position and value. The way pixel position is represented is determined by the position parameter.\n- stats - causes raster data to be skipped and only summary statistics (valid pixel count, requested area coverage, min, max, mean value, standard deviation) to be returned.",
+									"disabled": true
+								},
+								{
+									"key": "srid",
+									"value": "4326",
+									"description": "- An EPSG code of returned spatial objects projection, e.g. 4326 (WGS-84) or 3857 (Web Mercator)\n- If not provided srcSrid parameter value is used and if srcSrid parameter isn't provided as well, a default value of 4326 is assumed.\n- applied to the output"
+								},
+								{
+									"key": "interpolation",
+									"value": "l",
+									"description": "Daily data interpolation method (l - linear, w - whitakker smoother)\nDefault l",
+									"disabled": true
+								},
+								{
+									"key": "lambda",
+									"value": "1",
+									"description": "Whittaker smoother lambda parameter (the bigger the value, the more smoothed output)\nDefault 10",
+									"disabled": true
+								},
+								{
+									"key": "minValid",
+									"value": "4",
+									"description": "Minimum number of valid acquisitions to provide a smoothed data series for a pixel when the whittaker smoother is used.\nDefault 4",
+									"disabled": true
+								},
+								{
+									"key": "nLoops",
+									"value": "3",
+									"description": "Number of whittaker smoother loops.\nDefault 3",
+									"disabled": true
+								},
+								{
+									"key": "startValue",
+									"value": "0.3",
+									"description": "Minimal NDVI value to start the mzm indicator computation (evalutated on a pixel level)\nDefault 0.3",
+									"disabled": true
+								},
+								{
+									"key": "endValue",
+									"value": "0.35",
+									"description": "Minimal NDVI value ending the mzm indicator computation (evalutated on a pixel level).\nDefault 0.35",
+									"disabled": true
+								},
+								{
+									"key": "minPeriodLength",
+									"value": "60",
+									"description": "Minimum length (in days) of a period for which the mzm indicator is computed (evalutated on a pixel level).\nDefault 60",
+									"disabled": true
+								},
+								{
+									"key": "slope",
+									"value": "1.64",
+									"description": "Slope coefficient used in the indicator formula",
+									"disabled": true
+								},
+								{
+									"key": "const",
+									"value": "-0.14",
+									"description": "Constant coefficient used in the indicator formula.",
+									"disabled": true
+								},
+								{
+									"key": "k",
+									"value": "2",
+									"description": "Coefficient used in the mzm indicator standarization formula.\nDefault 2",
+									"disabled": true
+								},
+								{
+									"key": "statsBuf",
+									"value": "10",
+									"description": "Buffer (in meters) used to compute resulting raster statistics. It's used to avoid noise which can be introduced by the pixels on the border of the processed geometry.\nDefault 10",
+									"disabled": true
+								},
+								{
+									"key": "dates",
+									"value": null,
+									"description": "Coma separated list of data acquisition dates (in YYYY-MM-DD format) to be used for the indicator computation",
+									"disabled": true
+								},
+								{
+									"key": "debug",
+									"value": "raw",
+									"description": "Possible values: ndvi, et, raw",
+									"disabled": true
+								},
+								{
+									"key": "token",
+									"value": "6ca6988a12f5dceaf72ede6c07f12c94baf9b50497234bccc32099ab9c84cdf56a96246d8788e080"
+								}
+							]
+						}
+					},
+					"response": []
 				}
 			]
 		}
